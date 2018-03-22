@@ -1,8 +1,9 @@
 {
-  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "$schema": "./node_modules/@nrwl/schematics/src/schema.json",
   "project": {
     "name": "nx-examples",
-    "npmScope": "nx-examples"
+    "npmScope": "nx-examples",
+    "latestMigration": "20180313-add-tags"
   },
   "apps": [
     {
@@ -17,7 +18,7 @@
       "main": "main.ts",
       "polyfills": "polyfills.ts",
       "test": "../../../test.js",
-      "tsconfig": "../../../tsconfig.app.json",
+      "tsconfig": "tsconfig.app.json",
       "testTsconfig": "../../../tsconfig.spec.json",
       "prefix": "app",
       "styles": [
@@ -28,7 +29,8 @@
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
-      }
+      },
+      "tags": []
     },
     {
       "name": "school",
@@ -42,7 +44,7 @@
       "main": "main.ts",
       "polyfills": "polyfills.ts",
       "test": "../../../test.js",
-      "tsconfig": "../../../tsconfig.app.json",
+      "tsconfig": "tsconfig.app.json",
       "testTsconfig": "../../../tsconfig.spec.json",
       "prefix": "app",
       "styles": [
@@ -53,7 +55,8 @@
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
-      }
+      },
+      "tags": []
     },
     {
       "name": "teach",
@@ -67,7 +70,7 @@
       "main": "main.ts",
       "polyfills": "polyfills.ts",
       "test": "../../../test.js",
-      "tsconfig": "../../../tsconfig.app.json",
+      "tsconfig": "tsconfig.app.json",
       "testTsconfig": "../../../tsconfig.spec.json",
       "prefix": "app",
       "styles": [
@@ -78,31 +81,40 @@
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
-      }
+      },
+      "tags": []
     },
     {
       "name": "ar",
       "root": "libs/ar/src",
       "test": "../../../test.js",
-      "appRoot": ""
+      "appRoot": "",
+      "tsconfig": "tsconfig.app.json",
+      "tags": []
     },
     {
       "name": "model",
       "root": "libs/model/src",
       "test": "../../../test.js",
-      "appRoot": ""
+      "appRoot": "",
+      "tsconfig": "tsconfig.app.json",
+      "tags": []
     },
     {
       "name": "school-ui",
       "root": "libs/school-ui/src",
       "test": "../../../test.js",
-      "appRoot": ""
+      "appRoot": "",
+      "tsconfig": "tsconfig.app.json",
+      "tags": []
     },
     {
       "name": "slides",
       "root": "libs/slides/src",
       "test": "../../../test.js",
-      "appRoot": ""
+      "appRoot": "",
+      "tsconfig": "tsconfig.app.json",
+      "tags": []
     }
   ],
   "e2e": {
@@ -112,13 +124,32 @@
   },
   "lint": [
     {
-      "project": "./tsconfig.app.json"
+      "project": "./tsconfig.spec.json",
+      "exclude": "**/node_modules/**"
     },
     {
-      "project": "./tsconfig.spec.json"
+      "project": "./apps/profile/src/tsconfig.app.json",
+      "exclude": "**/node_modules/**"
     },
     {
-      "project": "./tsconfig.e2e.json"
+      "project": "./apps/profile/e2e/tsconfig.e2e.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "./apps/school/src/tsconfig.app.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "./apps/school/e2e/tsconfig.e2e.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "./apps/teach/src/tsconfig.app.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "./apps/teach/e2e/tsconfig.e2e.json",
+      "exclude": "**/node_modules/**"
     }
   ],
   "test": {
