@@ -1,0 +1,17 @@
+{
+  "npmScope": "newws",
+  "projects": {
+    "app1": {
+      "tags": []
+    },
+    "app1-e2e": {
+      "tags": []
+    },
+    "app2": {
+      "tags": []
+    },
+    "app2-e2e": {
+      "tags": []
+    }
+  }
+}
