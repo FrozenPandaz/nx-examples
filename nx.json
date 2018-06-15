@@ -12,6 +12,12 @@
     },
     "app2-e2e": {
       "tags": []
+    },
+    "lib1": {
+      "tags": []
+    },
+    "lib2": {
+      "tags": []
     }
   },
   "implicitDependencies": {

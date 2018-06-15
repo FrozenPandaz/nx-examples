@@ -18,6 +18,12 @@
     "paths": {
       "@newws/*": [
         "libs/*"
+      ],
+      "@newws/lib1": [
+        "libs/lib1/src/index.ts"
+      ],
+      "@newws/lib2": [
+        "libs/lib2/src/index.ts"
       ]
     }
   },
