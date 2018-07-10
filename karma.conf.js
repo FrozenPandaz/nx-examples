@@ -1,4 +1,4 @@
-export const baseKarmaConf = config => {
+module.exports = baseKarmaConf = config => {
   config.set({
     basePath: '',
     frameworks: ['jasmine', '@angular-devkit/build-angular'],

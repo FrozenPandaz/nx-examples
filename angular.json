@@ -18,13 +18,8 @@
             "main": "apps/app1/src/main.ts",
             "polyfills": "apps/app1/src/polyfills.ts",
             "tsConfig": "apps/app1/tsconfig.app.json",
-            "assets": [
-              "apps/app1/src/favicon.ico",
-              "apps/app1/src/assets"
-            ],
-            "styles": [
-              "apps/app1/src/styles.css"
-            ],
+            "assets": ["apps/app1/src/favicon.ico", "apps/app1/src/assets"],
+            "styles": ["apps/app1/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -70,15 +65,10 @@
             "main": "apps/app1/src/test.ts",
             "polyfills": "apps/app1/src/polyfills.ts",
             "tsConfig": "apps/app1/tsconfig.spec.json",
-            "karmaConfig": "apps/app1/karma.conf.ts",
-            "styles": [
-              "apps/app1/src/styles.css"
-            ],
+            "karmaConfig": "apps/app1/karma.conf.js",
+            "styles": ["apps/app1/src/styles.css"],
             "scripts": [],
-            "assets": [
-              "apps/app1/src/favicon.ico",
-              "apps/app1/src/assets"
-            ]
+            "assets": ["apps/app1/src/favicon.ico", "apps/app1/src/assets"]
           }
         },
         "lint": {
@@ -88,9 +78,7 @@
               "apps/app1/tsconfig.app.json",
               "apps/app1/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -110,9 +98,7 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "apps/app1-e2e/tsconfig.e2e.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -132,13 +118,8 @@
             "main": "apps/app2/src/main.ts",
             "polyfills": "apps/app2/src/polyfills.ts",
             "tsConfig": "apps/app2/tsconfig.app.json",
-            "assets": [
-              "apps/app2/src/favicon.ico",
-              "apps/app2/src/assets"
-            ],
-            "styles": [
-              "apps/app2/src/styles.css"
-            ],
+            "assets": ["apps/app2/src/favicon.ico", "apps/app2/src/assets"],
+            "styles": ["apps/app2/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -184,15 +165,10 @@
             "main": "apps/app2/src/test.ts",
             "polyfills": "apps/app2/src/polyfills.ts",
             "tsConfig": "apps/app2/tsconfig.spec.json",
-            "karmaConfig": "apps/app2/karma.conf.ts",
-            "styles": [
-              "apps/app2/src/styles.css"
-            ],
+            "karmaConfig": "apps/app2/karma.conf.js",
+            "styles": ["apps/app2/src/styles.css"],
             "scripts": [],
-            "assets": [
-              "apps/app2/src/favicon.ico",
-              "apps/app2/src/assets"
-            ]
+            "assets": ["apps/app2/src/favicon.ico", "apps/app2/src/assets"]
           }
         },
         "lint": {
@@ -202,9 +178,7 @@
               "apps/app2/tsconfig.app.json",
               "apps/app2/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -224,9 +198,7 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "apps/app2-e2e/tsconfig.e2e.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -252,9 +224,7 @@
               "libs/lib1/tsconfig.lib.json",
               "libs/lib1/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -280,9 +250,7 @@
               "libs/lib2/tsconfig.lib.json",
               "libs/lib2/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }

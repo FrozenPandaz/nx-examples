@@ -1,6 +1,6 @@
-import { baseKarmaConf } from '../../karma.conf';
+const baseKarmaConf = require('../../karma.conf');
 
-export default config => {
+module.exports = config => {
   baseKarmaConf(config);
   config.set({
     coverageIstanbulReporter: {
