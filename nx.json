@@ -1,5 +1,5 @@
 {
-  "npmScope": "projj",
+  "npmScope": "myproj",
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": "*",
@@ -7,5 +7,15 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "cars-app": {
+      "tags": []
+    },
+    "cars-app-e2e": {
+      "tags": []
+    },
+    "cars-state": {
+      "tags": []
+    }
+  }
 }

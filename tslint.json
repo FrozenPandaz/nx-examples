@@ -70,13 +70,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "myproj",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "myproj",
       "kebab-case"
     ],
     "no-output-on-prefix": true,

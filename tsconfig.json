@@ -16,6 +16,9 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@myproj/cars/state": [
+        "libs/cars/state/src/index.ts"
+      ]
     }
   },
   "exclude": [

@@ -1,0 +1,5 @@
+<ul>
+	<li *ngFor="let car of cars$ | async">
+		{{ car.year }} {{ car.brand }} {{ car.model }}
+	</li>
+</ul>
