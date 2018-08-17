@@ -16,6 +16,9 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@projj/name": [
+        "libs/name/src/index.ts"
+      ]
     }
   },
   "exclude": [

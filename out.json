@@ -1,0 +1,12 @@
+{
+  "deps": {
+    "app1-e2e": [
+      {
+        "projectName": "app1",
+        "type": "implicit"
+      }
+    ],
+    "app1": []
+  },
+  "criticalPath": []
+}
