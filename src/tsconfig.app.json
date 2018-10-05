@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      // This would fix compilation but you'd have to duplicate all path configs
+      // "m1/*": ["./src/module1/*"],
+      "m2/*": ["./src/module2/*"]
+    }
+  }
+}

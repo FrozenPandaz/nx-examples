@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "m1/*": ["./src/module1/*"]
+    }
+  }
+}
