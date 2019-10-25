@@ -1,0 +1,65 @@
+# Add rules here to build your software
+# See https://docs.bazel.build/versions/master/build-ref.html#BUILD_files
+
+# Allow any ts_library rules in this workspace to reference the config
+# Note: if you move the tsconfig.json file to a subdirectory, you can add an alias() here instead
+#   so that ts_library rules still use it by default.
+#   See https://www.npmjs.com/package/@bazel/typescript#installation
+exports_files(
+    [
+        "tsconfig.json",
+        "tslint.json",
+        "package.json",
+        "angular.json",
+        "jest.config.js",
+    ],
+    visibility = ["//:__subpackages__"],
+)
+
+load("@build_bazel_rules_nodejs//:defs.bzl", "nodejs_binary", "nodejs_test", "npm_package_bin")
+
+filegroup(
+    name = "node_modules",
+    srcs = glob(
+        [
+            "node_modules/**",
+        ],
+        exclude = [
+            "node_modules/@firebase/**",
+        ],
+    ),
+    visibility = ["//visibility:public"],
+)
+
+filegroup(
+    name = "apps",
+    srcs = glob(["apps/**"]),
+    visibility = ["//visibility:public"],
+)
+
+filegroup(
+    name = "libs",
+    srcs = glob(["libs/**"]),
+    visibility = ["//visibility:public"],
+)
+
+nodejs_test(
+    name = "build",
+    args = [
+        "test",
+        "cart",
+    ],
+    data = [
+        "angular.json",
+        "jest.config.js",
+        "nx.json",
+        "package.json",
+        "tsconfig.json",
+        "tslint.json",
+        "yarn.lock",
+        ":apps",
+        ":libs",
+        ":node_modules",
+    ],
+    entry_point = "node_modules/@angular/cli/bin/ng",
+)
