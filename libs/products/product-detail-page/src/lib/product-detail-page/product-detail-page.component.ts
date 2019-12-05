@@ -7,10 +7,10 @@ import { concatMap, map } from 'rxjs/operators';
 import {
   getProduct,
   getProductsState,
+  ProductsActionTypes,
   ProductsPartialState
 } from '@nx-example/shared/product/state';
 import '@nx-example/shared/product/ui';
-import { ProductsActionTypes } from '../../../../../shared/product/state/src/lib/+state/products.actions';
 
 @Component({
   selector: 'nx-example-product-detail-page',

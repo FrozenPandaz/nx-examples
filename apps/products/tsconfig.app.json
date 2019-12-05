@@ -11,6 +11,6 @@
   ],
   "exclude": ["src/test-setup.ts", "**/*.spec.ts"],
   "angularCompilerOptions": {
-    "enableIvy": true
+    "enableIvy": false
   }
 }

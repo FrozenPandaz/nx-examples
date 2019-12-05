@@ -8,6 +8,7 @@ import {
   getProductsState,
   ProductsPartialState
 } from '@nx-example/shared/product/state';
+import { ProductsActionTypes } from '@nx-example/shared/product/state';
 import { Product } from '@nx-example/shared/product/types';
 import '@nx-example/shared/product/ui';
 
@@ -24,5 +25,9 @@ export class HomePageComponent implements OnInit {
 
   constructor(private store: Store<ProductsPartialState>) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.store.dispatch({
+      type: ProductsActionTypes.Action
+    });
+  }
 }

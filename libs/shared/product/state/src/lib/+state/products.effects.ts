@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { createEffect } from '@ngrx/effects';
+import { Effect } from '@ngrx/effects';
 import { DataPersistence } from '@nrwl/angular';
 import { ProductsActionTypes } from './products.actions';
 
@@ -7,12 +7,20 @@ import { ProductsActionTypes } from './products.actions';
   providedIn: 'root'
 })
 export class ProductsEffects {
-  public someEffect$ = createEffect(() =>
-    this.dataPersistence.fetch(ProductsActionTypes.Action, {
-      run: a => ({
-        type: 'fake action'
-      })
-    })
-  );
+  @Effect()
+  public someEffect$ = this.dataPersistence.fetch(ProductsActionTypes.Action, {
+    run: a => {
+      console.log('fetching');
+      return { type: 'fake action' };
+    }
+  });
+  // public someEffect$ = createEffect(() =>
+  //   this.dataPersistence.fetch(ProductsActionTypes.Action, {
+  //     run: a => {
+  //       console.log('fetching');
+  //       return { type: 'fake action' };
+  //     }
+  //   })
+  // );
   constructor(private dataPersistence: DataPersistence<any>) {}
 }
