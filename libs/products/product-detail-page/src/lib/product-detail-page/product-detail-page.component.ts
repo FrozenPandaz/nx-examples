@@ -10,6 +10,7 @@ import {
   ProductsPartialState
 } from '@nx-example/shared/product/state';
 import '@nx-example/shared/product/ui';
+import { ProductsActionTypes } from '../../../../../shared/product/state/src/lib/+state/products.actions';
 
 @Component({
   selector: 'nx-example-product-detail-page',
@@ -31,5 +32,9 @@ export class ProductDetailPageComponent implements OnInit {
     private route: ActivatedRoute
   ) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.store.dispatch({
+      type: ProductsActionTypes.Action
+    });
+  }
 }

@@ -4,6 +4,8 @@ import { RouterModule } from '@angular/router';
 
 import { StoreModule } from '@ngrx/store';
 import { AppComponent } from './app.component';
+import { EffectsModule } from '@ngrx/effects';
+import { NxModule } from '@nrwl/angular';
 
 @NgModule({
   declarations: [AppComponent],
@@ -29,7 +31,9 @@ import { AppComponent } from './app.component';
       ],
       { initialNavigation: 'enabled' }
     ),
-    StoreModule.forRoot({})
+    StoreModule.forRoot({}),
+    EffectsModule.forRoot([]),
+    NxModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent],
