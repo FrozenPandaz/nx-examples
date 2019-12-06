@@ -558,6 +558,74 @@
           }
         }
       }
+    },
+    "electron-app": {
+      "root": "apps/electron-app",
+      "sourceRoot": "apps/electron-app/src",
+      "projectType": "application",
+      "prefix": "electron-app",
+      "schematics": {},
+      "architect": {
+        "build": {
+          "builder": "nx-electron:build",
+          "options": {
+            "outputPath": "dist/apps/electron-app",
+            "main": "apps/electron-app/src/main.ts",
+            "tsConfig": "apps/electron-app/tsconfig.app.json",
+            "assets": ["apps/electron-app/src/assets"],
+            "maxWorkers": 1
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "extractLicenses": true,
+              "inspect": false,
+              "fileReplacements": [
+                {
+                  "replace": "apps/electron-app/src/environments/environment.ts",
+                  "with": "apps/electron-app/src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/architect:allOf",
+          "options": {
+            "targets": [
+              {
+                "target": "electron-app:_serve"
+              },
+              {
+                "target": "products:serve"
+              }
+            ]
+          }
+        },
+        "_serve": {
+          "builder": "nx-electron:execute",
+          "options": {
+            "buildTarget": "electron-app:build"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "apps/electron-app/tsconfig.app.json",
+              "apps/electron-app/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!apps/electron-app/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "apps/electron-app/jest.config.js",
+            "tsConfig": "apps/electron-app/tsconfig.spec.json"
+          }
+        }
+      }
     }
   },
   "cli": {
