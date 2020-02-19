@@ -601,6 +601,24 @@
           }
         }
       }
+    },
+    "greeter": {
+      "root": "libs/greeter",
+      "sourceRoot": "libs/greeter/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "build": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "gradle --project-dir libs/greeter build"
+              }
+            ]
+          }
+        }
+      }
     }
   },
   "cli": {

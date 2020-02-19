@@ -75,6 +75,9 @@
     },
     "java-api": {
       "tags": []
+    },
+    "greeter": {
+      "tags": []
     }
   }
 }
