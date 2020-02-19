@@ -5,6 +5,10 @@
 /tmp
 /out-tsc
 
+# Gradle
+.gradle
+build
+
 # dependencies
 /node_modules
 

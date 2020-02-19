@@ -72,6 +72,9 @@
     },
     "shared-styles": {
       "tags": ["scope:shared", "type:styles"]
+    },
+    "java-api": {
+      "tags": []
     }
   }
 }

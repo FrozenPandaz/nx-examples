@@ -1,0 +1,8 @@
+apply plugin: 'java'
+  tasks.withType(Jar) {
+    destinationDir = file("$rootDir/../../dist/apps/java-api")
+    buildDir = file("$rootDir/../../dist/apps/java-api")
+  }
+
+apply plugin: 'application'
+  mainClassName = 'hello.HelloWorld'

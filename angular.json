@@ -572,6 +572,35 @@
           }
         }
       }
+    },
+    "java-api": {
+      "root": "apps/java-api",
+      "sourceRoot": "apps/java-api/src",
+      "projectType": "application",
+      "schematics": {},
+      "architect": {
+        "build": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "gradle --project-dir apps/java-api build"
+              }
+            ],
+            "outputPath": "apps/java-api/build"
+          }
+        },
+        "run": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "gradle --project-dir apps/java-api run"
+              }
+            ]
+          }
+        }
+      }
     }
   },
   "cli": {
@@ -590,6 +619,20 @@
     },
     "@nrwl/angular:library": {
       "unitTestRunner": "jest"
+    },
+    "@nrwl/react": {
+      "application": {
+        "style": "scss",
+        "linter": "tslint",
+        "babel": true
+      },
+      "component": {
+        "style": "scss"
+      },
+      "library": {
+        "style": "scss",
+        "linter": "tslint"
+      }
     }
   },
   "defaultProject": "products"
