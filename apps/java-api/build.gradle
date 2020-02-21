@@ -1,12 +1,36 @@
-apply plugin: 'java'
-  tasks.withType(Jar) {
-    destinationDir = file("$rootDir/../../dist/apps/java-api")
-    buildDir = file("$rootDir/../../dist/apps/java-api")
-  }
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.0.5.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.7.RELEASE'
+}
 
-apply plugin: 'application'
-  mainClassName = 'hello.HelloWorld'
+tasks.withType(Jar) {
+  destinationDir = file("$rootDir/../../dist/apps/java-api")
+  buildDir = file("$rootDir/../../dist/apps/java-api")
+}
+
+bootJar {
+  mainClassName = 'www.api.App'
+}
+
+repositories {
+  mavenCentral()
+}
 
 dependencies {
   implementation project(':greeter')
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+
+  testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+  components {
+    withModule('org.springframework:spring-beans') {
+      allVariants {
+        withDependencyConstraints {
+          // Need to patch constraints because snakeyaml is an optional dependency
+          it.findAll { it.name == 'snakeyaml' }.each { it.version { strictly '1.19' } }
+        }
+      }
+    }
+  }
 }

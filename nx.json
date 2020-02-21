@@ -74,6 +74,7 @@
       "tags": ["scope:shared", "type:styles"]
     },
     "java-api": {
+      "implicitDependencies": ["greeter"],
       "tags": []
     },
     "greeter": {

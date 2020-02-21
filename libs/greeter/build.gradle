@@ -1,5 +1,31 @@
-apply plugin: 'java'
-  tasks.withType(Jar) {
-    destinationDir = file("$rootDir/../../dist/libs/greeter")
-    buildDir = file("$rootDir/../../dist/libs/greeter")
+plugins {
+  id 'org.springframework.boot' version '2.2.0.RELEASE'
+  id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+  id 'java'
+}
+
+repositories { mavenCentral() }
+
+dependencies {
+  implementation 'org.springframework.boot:spring-boot-starter'
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+
+  testImplementation('org.springframework.boot:spring-boot-starter-test') {
+    exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
   }
+}
+
+test { useJUnitPlatform() }
+
+tasks.withType(Jar) {
+  destinationDir = file("$rootDir/../../dist/libs/greeter")
+  buildDir = file("$rootDir/../../dist/libs/greeter")
+}
+
+bootJar {
+  enabled = false
+}
+
+jar {
+  enabled = true
+}
