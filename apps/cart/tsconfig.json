@@ -1,15 +1,18 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
     "jsx": "react",
     "allowJs": true,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "types": ["node", "jest"]
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["**/*.ts", "**/*.tsx"],
-  "files": [
-    "../../node_modules/@nrwl/react/typings/cssmodule.d.ts",
-    "../../node_modules/@nrwl/react/typings/image.d.ts"
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
   ]
 }

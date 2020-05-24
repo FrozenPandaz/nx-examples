@@ -564,15 +564,7 @@
       "sourceRoot": "libs/shared/styles/src",
       "projectType": "library",
       "schematics": {},
-      "architect": {
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": ["libs/shared/styles/tsconfig.lib.json"],
-            "exclude": ["**/node_modules/**", "!libs/shared/styles/**"]
-          }
-        }
-      }
+      "architect": {}
     }
   },
   "cli": {

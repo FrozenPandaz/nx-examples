@@ -1,11 +1,18 @@
 {
   "extends": "../../../tsconfig.json",
   "compilerOptions": {
+    "outDir": "../../../dist/out-tsc",
     "jsx": "react",
     "allowJs": true,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "types": ["node", "jest"]
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["**/*.ts", "**/*.tsx"]
+  "references": [
+    {
+      "path": "./tsconfig.lib.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ]
 }

@@ -30,14 +30,14 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~9.1.0",
-    "@angular/common": "~9.1.0",
-    "@angular/compiler": "~9.1.0",
-    "@angular/core": "~9.1.0",
-    "@angular/forms": "~9.1.0",
-    "@angular/platform-browser": "~9.1.0",
-    "@angular/platform-browser-dynamic": "~9.1.0",
-    "@angular/router": "~9.1.0",
+    "@angular/animations": "^10.0.0-rc.0",
+    "@angular/common": "^10.0.0-rc.0",
+    "@angular/compiler": "^10.0.0-rc.0",
+    "@angular/core": "^10.0.0-rc.0",
+    "@angular/forms": "^10.0.0-rc.0",
+    "@angular/platform-browser": "^10.0.0-rc.0",
+    "@angular/platform-browser-dynamic": "^10.0.0-rc.0",
+    "@angular/router": "^10.0.0-rc.0",
     "@emotion/core": "10.0.27",
     "@emotion/styled": "10.0.27",
     "@ngrx/effects": "9.0.0",
@@ -56,10 +56,10 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.901.0",
-    "@angular/cli": "~9.1.0",
-    "@angular/compiler-cli": "~9.1.0",
-    "@angular/language-service": "~9.1.0",
+    "@angular-devkit/build-angular": "^0.1000.0-rc.0",
+    "@angular/cli": "^10.0.0-rc.0",
+    "@angular/compiler-cli": "^10.0.0-rc.0",
+    "@angular/language-service": "^10.0.0-rc.0",
     "@babel/preset-react": "7.0.0",
     "@ngrx/store-devtools": "9.0.0",
     "@nrwl/cypress": "9.2.4",
@@ -88,6 +88,6 @@
     "ts-jest": "25.2.1",
     "ts-node": "~7.0.0",
     "tslint": "6.0.0",
-    "typescript": "~3.8.3"
+    "typescript": "~3.9.3"
   }
 }
