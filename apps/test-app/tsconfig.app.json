@@ -4,8 +4,475 @@
     "outDir": "../../dist/out-tsc",
     "types": [],
     "paths": {
-      
+      "@test/lib1": [
+        "dist/libs/lib1/esm2015/index.js"
+      ],
+      "@test/lib11": [
+        "dist/libs/lib11/esm2015/index.js"
+      ],
+      "@test/lib111": [
+        "dist/libs/lib111/esm2015/index.js"
+      ],
+      "@test/lib112": [
+        "dist/libs/lib112/esm2015/index.js"
+      ],
+      "@test/lib113": [
+        "dist/libs/lib113/esm2015/index.js"
+      ],
+      "@test/lib114": [
+        "dist/libs/lib114/esm2015/index.js"
+      ],
+      "@test/lib115": [
+        "dist/libs/lib115/esm2015/index.js"
+      ],
+      "@test/lib12": [
+        "dist/libs/lib12/esm2015/index.js"
+      ],
+      "@test/lib121": [
+        "dist/libs/lib121/esm2015/index.js"
+      ],
+      "@test/lib122": [
+        "dist/libs/lib122/esm2015/index.js"
+      ],
+      "@test/lib123": [
+        "dist/libs/lib123/esm2015/index.js"
+      ],
+      "@test/lib124": [
+        "dist/libs/lib124/esm2015/index.js"
+      ],
+      "@test/lib125": [
+        "dist/libs/lib125/esm2015/index.js"
+      ],
+      "@test/lib13": [
+        "dist/libs/lib13/esm2015/index.js"
+      ],
+      "@test/lib131": [
+        "dist/libs/lib131/esm2015/index.js"
+      ],
+      "@test/lib132": [
+        "dist/libs/lib132/esm2015/index.js"
+      ],
+      "@test/lib133": [
+        "dist/libs/lib133/esm2015/index.js"
+      ],
+      "@test/lib134": [
+        "dist/libs/lib134/esm2015/index.js"
+      ],
+      "@test/lib135": [
+        "dist/libs/lib135/esm2015/index.js"
+      ],
+      "@test/lib14": [
+        "dist/libs/lib14/esm2015/index.js"
+      ],
+      "@test/lib141": [
+        "dist/libs/lib141/esm2015/index.js"
+      ],
+      "@test/lib142": [
+        "dist/libs/lib142/esm2015/index.js"
+      ],
+      "@test/lib143": [
+        "dist/libs/lib143/esm2015/index.js"
+      ],
+      "@test/lib144": [
+        "dist/libs/lib144/esm2015/index.js"
+      ],
+      "@test/lib145": [
+        "dist/libs/lib145/esm2015/index.js"
+      ],
+      "@test/lib15": [
+        "dist/libs/lib15/esm2015/index.js"
+      ],
+      "@test/lib151": [
+        "dist/libs/lib151/esm2015/index.js"
+      ],
+      "@test/lib152": [
+        "dist/libs/lib152/esm2015/index.js"
+      ],
+      "@test/lib153": [
+        "dist/libs/lib153/esm2015/index.js"
+      ],
+      "@test/lib154": [
+        "dist/libs/lib154/esm2015/index.js"
+      ],
+      "@test/lib155": [
+        "dist/libs/lib155/esm2015/index.js"
+      ],
+      "@test/lib2": [
+        "dist/libs/lib2/esm2015/index.js"
+      ],
+      "@test/lib21": [
+        "dist/libs/lib21/esm2015/index.js"
+      ],
+      "@test/lib211": [
+        "dist/libs/lib211/esm2015/index.js"
+      ],
+      "@test/lib212": [
+        "dist/libs/lib212/esm2015/index.js"
+      ],
+      "@test/lib213": [
+        "dist/libs/lib213/esm2015/index.js"
+      ],
+      "@test/lib214": [
+        "dist/libs/lib214/esm2015/index.js"
+      ],
+      "@test/lib215": [
+        "dist/libs/lib215/esm2015/index.js"
+      ],
+      "@test/lib22": [
+        "dist/libs/lib22/esm2015/index.js"
+      ],
+      "@test/lib221": [
+        "dist/libs/lib221/esm2015/index.js"
+      ],
+      "@test/lib222": [
+        "dist/libs/lib222/esm2015/index.js"
+      ],
+      "@test/lib223": [
+        "dist/libs/lib223/esm2015/index.js"
+      ],
+      "@test/lib224": [
+        "dist/libs/lib224/esm2015/index.js"
+      ],
+      "@test/lib225": [
+        "dist/libs/lib225/esm2015/index.js"
+      ],
+      "@test/lib23": [
+        "dist/libs/lib23/esm2015/index.js"
+      ],
+      "@test/lib231": [
+        "dist/libs/lib231/esm2015/index.js"
+      ],
+      "@test/lib232": [
+        "dist/libs/lib232/esm2015/index.js"
+      ],
+      "@test/lib233": [
+        "dist/libs/lib233/esm2015/index.js"
+      ],
+      "@test/lib234": [
+        "dist/libs/lib234/esm2015/index.js"
+      ],
+      "@test/lib235": [
+        "dist/libs/lib235/esm2015/index.js"
+      ],
+      "@test/lib24": [
+        "dist/libs/lib24/esm2015/index.js"
+      ],
+      "@test/lib241": [
+        "dist/libs/lib241/esm2015/index.js"
+      ],
+      "@test/lib242": [
+        "dist/libs/lib242/esm2015/index.js"
+      ],
+      "@test/lib243": [
+        "dist/libs/lib243/esm2015/index.js"
+      ],
+      "@test/lib244": [
+        "dist/libs/lib244/esm2015/index.js"
+      ],
+      "@test/lib245": [
+        "dist/libs/lib245/esm2015/index.js"
+      ],
+      "@test/lib25": [
+        "dist/libs/lib25/esm2015/index.js"
+      ],
+      "@test/lib251": [
+        "dist/libs/lib251/esm2015/index.js"
+      ],
+      "@test/lib252": [
+        "dist/libs/lib252/esm2015/index.js"
+      ],
+      "@test/lib253": [
+        "dist/libs/lib253/esm2015/index.js"
+      ],
+      "@test/lib254": [
+        "dist/libs/lib254/esm2015/index.js"
+      ],
+      "@test/lib255": [
+        "dist/libs/lib255/esm2015/index.js"
+      ],
+      "@test/lib3": [
+        "dist/libs/lib3/esm2015/index.js"
+      ],
+      "@test/lib31": [
+        "dist/libs/lib31/esm2015/index.js"
+      ],
+      "@test/lib311": [
+        "dist/libs/lib311/esm2015/index.js"
+      ],
+      "@test/lib312": [
+        "dist/libs/lib312/esm2015/index.js"
+      ],
+      "@test/lib313": [
+        "dist/libs/lib313/esm2015/index.js"
+      ],
+      "@test/lib314": [
+        "dist/libs/lib314/esm2015/index.js"
+      ],
+      "@test/lib315": [
+        "dist/libs/lib315/esm2015/index.js"
+      ],
+      "@test/lib32": [
+        "dist/libs/lib32/esm2015/index.js"
+      ],
+      "@test/lib321": [
+        "dist/libs/lib321/esm2015/index.js"
+      ],
+      "@test/lib322": [
+        "dist/libs/lib322/esm2015/index.js"
+      ],
+      "@test/lib323": [
+        "dist/libs/lib323/esm2015/index.js"
+      ],
+      "@test/lib324": [
+        "dist/libs/lib324/esm2015/index.js"
+      ],
+      "@test/lib325": [
+        "dist/libs/lib325/esm2015/index.js"
+      ],
+      "@test/lib33": [
+        "dist/libs/lib33/esm2015/index.js"
+      ],
+      "@test/lib331": [
+        "dist/libs/lib331/esm2015/index.js"
+      ],
+      "@test/lib332": [
+        "dist/libs/lib332/esm2015/index.js"
+      ],
+      "@test/lib333": [
+        "dist/libs/lib333/esm2015/index.js"
+      ],
+      "@test/lib334": [
+        "dist/libs/lib334/esm2015/index.js"
+      ],
+      "@test/lib335": [
+        "dist/libs/lib335/esm2015/index.js"
+      ],
+      "@test/lib34": [
+        "dist/libs/lib34/esm2015/index.js"
+      ],
+      "@test/lib341": [
+        "dist/libs/lib341/esm2015/index.js"
+      ],
+      "@test/lib342": [
+        "dist/libs/lib342/esm2015/index.js"
+      ],
+      "@test/lib343": [
+        "dist/libs/lib343/esm2015/index.js"
+      ],
+      "@test/lib344": [
+        "dist/libs/lib344/esm2015/index.js"
+      ],
+      "@test/lib345": [
+        "dist/libs/lib345/esm2015/index.js"
+      ],
+      "@test/lib35": [
+        "dist/libs/lib35/esm2015/index.js"
+      ],
+      "@test/lib351": [
+        "dist/libs/lib351/esm2015/index.js"
+      ],
+      "@test/lib352": [
+        "dist/libs/lib352/esm2015/index.js"
+      ],
+      "@test/lib353": [
+        "dist/libs/lib353/esm2015/index.js"
+      ],
+      "@test/lib354": [
+        "dist/libs/lib354/esm2015/index.js"
+      ],
+      "@test/lib355": [
+        "dist/libs/lib355/esm2015/index.js"
+      ],
+      "@test/lib4": [
+        "dist/libs/lib4/esm2015/index.js"
+      ],
+      "@test/lib41": [
+        "dist/libs/lib41/esm2015/index.js"
+      ],
+      "@test/lib411": [
+        "dist/libs/lib411/esm2015/index.js"
+      ],
+      "@test/lib412": [
+        "dist/libs/lib412/esm2015/index.js"
+      ],
+      "@test/lib413": [
+        "dist/libs/lib413/esm2015/index.js"
+      ],
+      "@test/lib414": [
+        "dist/libs/lib414/esm2015/index.js"
+      ],
+      "@test/lib415": [
+        "dist/libs/lib415/esm2015/index.js"
+      ],
+      "@test/lib42": [
+        "dist/libs/lib42/esm2015/index.js"
+      ],
+      "@test/lib421": [
+        "dist/libs/lib421/esm2015/index.js"
+      ],
+      "@test/lib422": [
+        "dist/libs/lib422/esm2015/index.js"
+      ],
+      "@test/lib423": [
+        "dist/libs/lib423/esm2015/index.js"
+      ],
+      "@test/lib424": [
+        "dist/libs/lib424/esm2015/index.js"
+      ],
+      "@test/lib425": [
+        "dist/libs/lib425/esm2015/index.js"
+      ],
+      "@test/lib43": [
+        "dist/libs/lib43/esm2015/index.js"
+      ],
+      "@test/lib431": [
+        "dist/libs/lib431/esm2015/index.js"
+      ],
+      "@test/lib432": [
+        "dist/libs/lib432/esm2015/index.js"
+      ],
+      "@test/lib433": [
+        "dist/libs/lib433/esm2015/index.js"
+      ],
+      "@test/lib434": [
+        "dist/libs/lib434/esm2015/index.js"
+      ],
+      "@test/lib435": [
+        "dist/libs/lib435/esm2015/index.js"
+      ],
+      "@test/lib44": [
+        "dist/libs/lib44/esm2015/index.js"
+      ],
+      "@test/lib441": [
+        "dist/libs/lib441/esm2015/index.js"
+      ],
+      "@test/lib442": [
+        "dist/libs/lib442/esm2015/index.js"
+      ],
+      "@test/lib443": [
+        "dist/libs/lib443/esm2015/index.js"
+      ],
+      "@test/lib444": [
+        "dist/libs/lib444/esm2015/index.js"
+      ],
+      "@test/lib445": [
+        "dist/libs/lib445/esm2015/index.js"
+      ],
+      "@test/lib45": [
+        "dist/libs/lib45/esm2015/index.js"
+      ],
+      "@test/lib451": [
+        "dist/libs/lib451/esm2015/index.js"
+      ],
+      "@test/lib452": [
+        "dist/libs/lib452/esm2015/index.js"
+      ],
+      "@test/lib453": [
+        "dist/libs/lib453/esm2015/index.js"
+      ],
+      "@test/lib454": [
+        "dist/libs/lib454/esm2015/index.js"
+      ],
+      "@test/lib455": [
+        "dist/libs/lib455/esm2015/index.js"
+      ],
+      "@test/lib5": [
+        "dist/libs/lib5/esm2015/index.js"
+      ],
+      "@test/lib51": [
+        "dist/libs/lib51/esm2015/index.js"
+      ],
+      "@test/lib511": [
+        "dist/libs/lib511/esm2015/index.js"
+      ],
+      "@test/lib512": [
+        "dist/libs/lib512/esm2015/index.js"
+      ],
+      "@test/lib513": [
+        "dist/libs/lib513/esm2015/index.js"
+      ],
+      "@test/lib514": [
+        "dist/libs/lib514/esm2015/index.js"
+      ],
+      "@test/lib515": [
+        "dist/libs/lib515/esm2015/index.js"
+      ],
+      "@test/lib52": [
+        "dist/libs/lib52/esm2015/index.js"
+      ],
+      "@test/lib521": [
+        "dist/libs/lib521/esm2015/index.js"
+      ],
+      "@test/lib522": [
+        "dist/libs/lib522/esm2015/index.js"
+      ],
+      "@test/lib523": [
+        "dist/libs/lib523/esm2015/index.js"
+      ],
+      "@test/lib524": [
+        "dist/libs/lib524/esm2015/index.js"
+      ],
+      "@test/lib525": [
+        "dist/libs/lib525/esm2015/index.js"
+      ],
+      "@test/lib53": [
+        "dist/libs/lib53/esm2015/index.js"
+      ],
+      "@test/lib531": [
+        "dist/libs/lib531/esm2015/index.js"
+      ],
+      "@test/lib532": [
+        "dist/libs/lib532/esm2015/index.js"
+      ],
+      "@test/lib533": [
+        "dist/libs/lib533/esm2015/index.js"
+      ],
+      "@test/lib534": [
+        "dist/libs/lib534/esm2015/index.js"
+      ],
+      "@test/lib535": [
+        "dist/libs/lib535/esm2015/index.js"
+      ],
+      "@test/lib54": [
+        "dist/libs/lib54/esm2015/index.js"
+      ],
+      "@test/lib541": [
+        "dist/libs/lib541/esm2015/index.js"
+      ],
+      "@test/lib542": [
+        "dist/libs/lib542/esm2015/index.js"
+      ],
+      "@test/lib543": [
+        "dist/libs/lib543/esm2015/index.js"
+      ],
+      "@test/lib544": [
+        "dist/libs/lib544/esm2015/index.js"
+      ],
+      "@test/lib545": [
+        "dist/libs/lib545/esm2015/index.js"
+      ],
+      "@test/lib55": [
+        "dist/libs/lib55/esm2015/index.js"
+      ],
+      "@test/lib551": [
+        "dist/libs/lib551/esm2015/index.js"
+      ],
+      "@test/lib552": [
+        "dist/libs/lib552/esm2015/index.js"
+      ],
+      "@test/lib553": [
+        "dist/libs/lib553/esm2015/index.js"
+      ],
+      "@test/lib554": [
+        "dist/libs/lib554/esm2015/index.js"
+      ],
+      "@test/lib555": [
+        "dist/libs/lib555/esm2015/index.js"
+      ]
     }
   },
-  "files": ["src/main.ts", "src/polyfills.ts"]
+  "files": [
+    "src/main.ts",
+    "src/polyfills.ts"
+  ]
 }
