@@ -29,7 +29,7 @@ function genComponents(project): Rule {
 function addPathMapping(to): Rule {
   return (host) => {
     const json = JSON.parse(host.read(`apps/test-app/tsconfig.app.json`).toString());
-    json.compilerOptions.paths[to] = [`dist/libs/${to}/esm2015/index.js`];
+    json.compilerOptions.paths[`@test/${to}`] = [`dist/libs/${to}/esm2015/index.js`];
     host.overwrite(`apps/test-app/tsconfig.app.json`, JSON.stringify(json, undefined, 2))
   }
 }
