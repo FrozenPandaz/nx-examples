@@ -4,8 +4,475 @@
     "outDir": "../../dist/out-tsc",
     "types": [],
     "paths": {
-      
+      "@test/lib1": [
+        "dist/libs/lib1"
+      ],
+      "@test/lib11": [
+        "dist/libs/lib11"
+      ],
+      "@test/lib111": [
+        "dist/libs/lib111"
+      ],
+      "@test/lib112": [
+        "dist/libs/lib112"
+      ],
+      "@test/lib113": [
+        "dist/libs/lib113"
+      ],
+      "@test/lib114": [
+        "dist/libs/lib114"
+      ],
+      "@test/lib115": [
+        "dist/libs/lib115"
+      ],
+      "@test/lib12": [
+        "dist/libs/lib12"
+      ],
+      "@test/lib121": [
+        "dist/libs/lib121"
+      ],
+      "@test/lib122": [
+        "dist/libs/lib122"
+      ],
+      "@test/lib123": [
+        "dist/libs/lib123"
+      ],
+      "@test/lib124": [
+        "dist/libs/lib124"
+      ],
+      "@test/lib125": [
+        "dist/libs/lib125"
+      ],
+      "@test/lib13": [
+        "dist/libs/lib13"
+      ],
+      "@test/lib131": [
+        "dist/libs/lib131"
+      ],
+      "@test/lib132": [
+        "dist/libs/lib132"
+      ],
+      "@test/lib133": [
+        "dist/libs/lib133"
+      ],
+      "@test/lib134": [
+        "dist/libs/lib134"
+      ],
+      "@test/lib135": [
+        "dist/libs/lib135"
+      ],
+      "@test/lib14": [
+        "dist/libs/lib14"
+      ],
+      "@test/lib141": [
+        "dist/libs/lib141"
+      ],
+      "@test/lib142": [
+        "dist/libs/lib142"
+      ],
+      "@test/lib143": [
+        "dist/libs/lib143"
+      ],
+      "@test/lib144": [
+        "dist/libs/lib144"
+      ],
+      "@test/lib145": [
+        "dist/libs/lib145"
+      ],
+      "@test/lib15": [
+        "dist/libs/lib15"
+      ],
+      "@test/lib151": [
+        "dist/libs/lib151"
+      ],
+      "@test/lib152": [
+        "dist/libs/lib152"
+      ],
+      "@test/lib153": [
+        "dist/libs/lib153"
+      ],
+      "@test/lib154": [
+        "dist/libs/lib154"
+      ],
+      "@test/lib155": [
+        "dist/libs/lib155"
+      ],
+      "@test/lib2": [
+        "dist/libs/lib2"
+      ],
+      "@test/lib21": [
+        "dist/libs/lib21"
+      ],
+      "@test/lib211": [
+        "dist/libs/lib211"
+      ],
+      "@test/lib212": [
+        "dist/libs/lib212"
+      ],
+      "@test/lib213": [
+        "dist/libs/lib213"
+      ],
+      "@test/lib214": [
+        "dist/libs/lib214"
+      ],
+      "@test/lib215": [
+        "dist/libs/lib215"
+      ],
+      "@test/lib22": [
+        "dist/libs/lib22"
+      ],
+      "@test/lib221": [
+        "dist/libs/lib221"
+      ],
+      "@test/lib222": [
+        "dist/libs/lib222"
+      ],
+      "@test/lib223": [
+        "dist/libs/lib223"
+      ],
+      "@test/lib224": [
+        "dist/libs/lib224"
+      ],
+      "@test/lib225": [
+        "dist/libs/lib225"
+      ],
+      "@test/lib23": [
+        "dist/libs/lib23"
+      ],
+      "@test/lib231": [
+        "dist/libs/lib231"
+      ],
+      "@test/lib232": [
+        "dist/libs/lib232"
+      ],
+      "@test/lib233": [
+        "dist/libs/lib233"
+      ],
+      "@test/lib234": [
+        "dist/libs/lib234"
+      ],
+      "@test/lib235": [
+        "dist/libs/lib235"
+      ],
+      "@test/lib24": [
+        "dist/libs/lib24"
+      ],
+      "@test/lib241": [
+        "dist/libs/lib241"
+      ],
+      "@test/lib242": [
+        "dist/libs/lib242"
+      ],
+      "@test/lib243": [
+        "dist/libs/lib243"
+      ],
+      "@test/lib244": [
+        "dist/libs/lib244"
+      ],
+      "@test/lib245": [
+        "dist/libs/lib245"
+      ],
+      "@test/lib25": [
+        "dist/libs/lib25"
+      ],
+      "@test/lib251": [
+        "dist/libs/lib251"
+      ],
+      "@test/lib252": [
+        "dist/libs/lib252"
+      ],
+      "@test/lib253": [
+        "dist/libs/lib253"
+      ],
+      "@test/lib254": [
+        "dist/libs/lib254"
+      ],
+      "@test/lib255": [
+        "dist/libs/lib255"
+      ],
+      "@test/lib3": [
+        "dist/libs/lib3"
+      ],
+      "@test/lib31": [
+        "dist/libs/lib31"
+      ],
+      "@test/lib311": [
+        "dist/libs/lib311"
+      ],
+      "@test/lib312": [
+        "dist/libs/lib312"
+      ],
+      "@test/lib313": [
+        "dist/libs/lib313"
+      ],
+      "@test/lib314": [
+        "dist/libs/lib314"
+      ],
+      "@test/lib315": [
+        "dist/libs/lib315"
+      ],
+      "@test/lib32": [
+        "dist/libs/lib32"
+      ],
+      "@test/lib321": [
+        "dist/libs/lib321"
+      ],
+      "@test/lib322": [
+        "dist/libs/lib322"
+      ],
+      "@test/lib323": [
+        "dist/libs/lib323"
+      ],
+      "@test/lib324": [
+        "dist/libs/lib324"
+      ],
+      "@test/lib325": [
+        "dist/libs/lib325"
+      ],
+      "@test/lib33": [
+        "dist/libs/lib33"
+      ],
+      "@test/lib331": [
+        "dist/libs/lib331"
+      ],
+      "@test/lib332": [
+        "dist/libs/lib332"
+      ],
+      "@test/lib333": [
+        "dist/libs/lib333"
+      ],
+      "@test/lib334": [
+        "dist/libs/lib334"
+      ],
+      "@test/lib335": [
+        "dist/libs/lib335"
+      ],
+      "@test/lib34": [
+        "dist/libs/lib34"
+      ],
+      "@test/lib341": [
+        "dist/libs/lib341"
+      ],
+      "@test/lib342": [
+        "dist/libs/lib342"
+      ],
+      "@test/lib343": [
+        "dist/libs/lib343"
+      ],
+      "@test/lib344": [
+        "dist/libs/lib344"
+      ],
+      "@test/lib345": [
+        "dist/libs/lib345"
+      ],
+      "@test/lib35": [
+        "dist/libs/lib35"
+      ],
+      "@test/lib351": [
+        "dist/libs/lib351"
+      ],
+      "@test/lib352": [
+        "dist/libs/lib352"
+      ],
+      "@test/lib353": [
+        "dist/libs/lib353"
+      ],
+      "@test/lib354": [
+        "dist/libs/lib354"
+      ],
+      "@test/lib355": [
+        "dist/libs/lib355"
+      ],
+      "@test/lib4": [
+        "dist/libs/lib4"
+      ],
+      "@test/lib41": [
+        "dist/libs/lib41"
+      ],
+      "@test/lib411": [
+        "dist/libs/lib411"
+      ],
+      "@test/lib412": [
+        "dist/libs/lib412"
+      ],
+      "@test/lib413": [
+        "dist/libs/lib413"
+      ],
+      "@test/lib414": [
+        "dist/libs/lib414"
+      ],
+      "@test/lib415": [
+        "dist/libs/lib415"
+      ],
+      "@test/lib42": [
+        "dist/libs/lib42"
+      ],
+      "@test/lib421": [
+        "dist/libs/lib421"
+      ],
+      "@test/lib422": [
+        "dist/libs/lib422"
+      ],
+      "@test/lib423": [
+        "dist/libs/lib423"
+      ],
+      "@test/lib424": [
+        "dist/libs/lib424"
+      ],
+      "@test/lib425": [
+        "dist/libs/lib425"
+      ],
+      "@test/lib43": [
+        "dist/libs/lib43"
+      ],
+      "@test/lib431": [
+        "dist/libs/lib431"
+      ],
+      "@test/lib432": [
+        "dist/libs/lib432"
+      ],
+      "@test/lib433": [
+        "dist/libs/lib433"
+      ],
+      "@test/lib434": [
+        "dist/libs/lib434"
+      ],
+      "@test/lib435": [
+        "dist/libs/lib435"
+      ],
+      "@test/lib44": [
+        "dist/libs/lib44"
+      ],
+      "@test/lib441": [
+        "dist/libs/lib441"
+      ],
+      "@test/lib442": [
+        "dist/libs/lib442"
+      ],
+      "@test/lib443": [
+        "dist/libs/lib443"
+      ],
+      "@test/lib444": [
+        "dist/libs/lib444"
+      ],
+      "@test/lib445": [
+        "dist/libs/lib445"
+      ],
+      "@test/lib45": [
+        "dist/libs/lib45"
+      ],
+      "@test/lib451": [
+        "dist/libs/lib451"
+      ],
+      "@test/lib452": [
+        "dist/libs/lib452"
+      ],
+      "@test/lib453": [
+        "dist/libs/lib453"
+      ],
+      "@test/lib454": [
+        "dist/libs/lib454"
+      ],
+      "@test/lib455": [
+        "dist/libs/lib455"
+      ],
+      "@test/lib5": [
+        "dist/libs/lib5"
+      ],
+      "@test/lib51": [
+        "dist/libs/lib51"
+      ],
+      "@test/lib511": [
+        "dist/libs/lib511"
+      ],
+      "@test/lib512": [
+        "dist/libs/lib512"
+      ],
+      "@test/lib513": [
+        "dist/libs/lib513"
+      ],
+      "@test/lib514": [
+        "dist/libs/lib514"
+      ],
+      "@test/lib515": [
+        "dist/libs/lib515"
+      ],
+      "@test/lib52": [
+        "dist/libs/lib52"
+      ],
+      "@test/lib521": [
+        "dist/libs/lib521"
+      ],
+      "@test/lib522": [
+        "dist/libs/lib522"
+      ],
+      "@test/lib523": [
+        "dist/libs/lib523"
+      ],
+      "@test/lib524": [
+        "dist/libs/lib524"
+      ],
+      "@test/lib525": [
+        "dist/libs/lib525"
+      ],
+      "@test/lib53": [
+        "dist/libs/lib53"
+      ],
+      "@test/lib531": [
+        "dist/libs/lib531"
+      ],
+      "@test/lib532": [
+        "dist/libs/lib532"
+      ],
+      "@test/lib533": [
+        "dist/libs/lib533"
+      ],
+      "@test/lib534": [
+        "dist/libs/lib534"
+      ],
+      "@test/lib535": [
+        "dist/libs/lib535"
+      ],
+      "@test/lib54": [
+        "dist/libs/lib54"
+      ],
+      "@test/lib541": [
+        "dist/libs/lib541"
+      ],
+      "@test/lib542": [
+        "dist/libs/lib542"
+      ],
+      "@test/lib543": [
+        "dist/libs/lib543"
+      ],
+      "@test/lib544": [
+        "dist/libs/lib544"
+      ],
+      "@test/lib545": [
+        "dist/libs/lib545"
+      ],
+      "@test/lib55": [
+        "dist/libs/lib55"
+      ],
+      "@test/lib551": [
+        "dist/libs/lib551"
+      ],
+      "@test/lib552": [
+        "dist/libs/lib552"
+      ],
+      "@test/lib553": [
+        "dist/libs/lib553"
+      ],
+      "@test/lib554": [
+        "dist/libs/lib554"
+      ],
+      "@test/lib555": [
+        "dist/libs/lib555"
+      ]
     }
   },
-  "files": ["src/main.ts", "src/polyfills.ts"]
+  "files": [
+    "src/main.ts",
+    "src/polyfills.ts"
+  ]
 }

@@ -25,7 +25,9 @@
               "apps/test-app/src/favicon.ico",
               "apps/test-app/src/assets"
             ],
-            "styles": ["apps/test-app/src/styles.scss"],
+            "styles": [
+              "apps/test-app/src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -84,7 +86,10 @@
               "apps/test-app/tsconfig.spec.json",
               "apps/test-app/tsconfig.editor.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/test-app/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/test-app/**/*"
+            ]
           }
         },
         "test": {
@@ -117,11 +122,5131 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["apps/test-app-e2e/tsconfig.e2e.json"],
-            "exclude": ["**/node_modules/**", "!apps/test-app-e2e/**/*"]
+            "tsConfig": [
+              "apps/test-app-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/test-app-e2e/**/*"
+            ]
           }
         }
       }
+    },
+    "lib1": {
+      "projectType": "library",
+      "root": "libs/lib1",
+      "sourceRoot": "libs/lib1/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib1/tsconfig.lib.json",
+            "project": "libs/lib1/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib1/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib1/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib1/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib11": {
+      "projectType": "library",
+      "root": "libs/lib11",
+      "sourceRoot": "libs/lib11/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib11/tsconfig.lib.json",
+            "project": "libs/lib11/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib11/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib11/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib11/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib111": {
+      "projectType": "library",
+      "root": "libs/lib111",
+      "sourceRoot": "libs/lib111/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib111/tsconfig.lib.json",
+            "project": "libs/lib111/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib111/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib111/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib111/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib112": {
+      "projectType": "library",
+      "root": "libs/lib112",
+      "sourceRoot": "libs/lib112/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib112/tsconfig.lib.json",
+            "project": "libs/lib112/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib112/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib112/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib112/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib113": {
+      "projectType": "library",
+      "root": "libs/lib113",
+      "sourceRoot": "libs/lib113/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib113/tsconfig.lib.json",
+            "project": "libs/lib113/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib113/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib113/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib113/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib114": {
+      "projectType": "library",
+      "root": "libs/lib114",
+      "sourceRoot": "libs/lib114/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib114/tsconfig.lib.json",
+            "project": "libs/lib114/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib114/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib114/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib114/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib115": {
+      "projectType": "library",
+      "root": "libs/lib115",
+      "sourceRoot": "libs/lib115/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib115/tsconfig.lib.json",
+            "project": "libs/lib115/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib115/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib115/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib115/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib12": {
+      "projectType": "library",
+      "root": "libs/lib12",
+      "sourceRoot": "libs/lib12/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib12/tsconfig.lib.json",
+            "project": "libs/lib12/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib12/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib12/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib12/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib121": {
+      "projectType": "library",
+      "root": "libs/lib121",
+      "sourceRoot": "libs/lib121/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib121/tsconfig.lib.json",
+            "project": "libs/lib121/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib121/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib121/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib121/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib122": {
+      "projectType": "library",
+      "root": "libs/lib122",
+      "sourceRoot": "libs/lib122/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib122/tsconfig.lib.json",
+            "project": "libs/lib122/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib122/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib122/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib122/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib123": {
+      "projectType": "library",
+      "root": "libs/lib123",
+      "sourceRoot": "libs/lib123/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib123/tsconfig.lib.json",
+            "project": "libs/lib123/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib123/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib123/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib123/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib124": {
+      "projectType": "library",
+      "root": "libs/lib124",
+      "sourceRoot": "libs/lib124/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib124/tsconfig.lib.json",
+            "project": "libs/lib124/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib124/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib124/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib124/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib125": {
+      "projectType": "library",
+      "root": "libs/lib125",
+      "sourceRoot": "libs/lib125/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib125/tsconfig.lib.json",
+            "project": "libs/lib125/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib125/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib125/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib125/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib13": {
+      "projectType": "library",
+      "root": "libs/lib13",
+      "sourceRoot": "libs/lib13/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib13/tsconfig.lib.json",
+            "project": "libs/lib13/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib13/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib13/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib13/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib131": {
+      "projectType": "library",
+      "root": "libs/lib131",
+      "sourceRoot": "libs/lib131/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib131/tsconfig.lib.json",
+            "project": "libs/lib131/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib131/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib131/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib131/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib132": {
+      "projectType": "library",
+      "root": "libs/lib132",
+      "sourceRoot": "libs/lib132/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib132/tsconfig.lib.json",
+            "project": "libs/lib132/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib132/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib132/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib132/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib133": {
+      "projectType": "library",
+      "root": "libs/lib133",
+      "sourceRoot": "libs/lib133/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib133/tsconfig.lib.json",
+            "project": "libs/lib133/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib133/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib133/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib133/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib134": {
+      "projectType": "library",
+      "root": "libs/lib134",
+      "sourceRoot": "libs/lib134/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib134/tsconfig.lib.json",
+            "project": "libs/lib134/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib134/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib134/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib134/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib135": {
+      "projectType": "library",
+      "root": "libs/lib135",
+      "sourceRoot": "libs/lib135/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib135/tsconfig.lib.json",
+            "project": "libs/lib135/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib135/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib135/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib135/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib14": {
+      "projectType": "library",
+      "root": "libs/lib14",
+      "sourceRoot": "libs/lib14/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib14/tsconfig.lib.json",
+            "project": "libs/lib14/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib14/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib14/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib14/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib141": {
+      "projectType": "library",
+      "root": "libs/lib141",
+      "sourceRoot": "libs/lib141/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib141/tsconfig.lib.json",
+            "project": "libs/lib141/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib141/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib141/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib141/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib142": {
+      "projectType": "library",
+      "root": "libs/lib142",
+      "sourceRoot": "libs/lib142/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib142/tsconfig.lib.json",
+            "project": "libs/lib142/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib142/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib142/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib142/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib143": {
+      "projectType": "library",
+      "root": "libs/lib143",
+      "sourceRoot": "libs/lib143/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib143/tsconfig.lib.json",
+            "project": "libs/lib143/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib143/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib143/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib143/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib144": {
+      "projectType": "library",
+      "root": "libs/lib144",
+      "sourceRoot": "libs/lib144/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib144/tsconfig.lib.json",
+            "project": "libs/lib144/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib144/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib144/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib144/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib145": {
+      "projectType": "library",
+      "root": "libs/lib145",
+      "sourceRoot": "libs/lib145/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib145/tsconfig.lib.json",
+            "project": "libs/lib145/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib145/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib145/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib145/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib15": {
+      "projectType": "library",
+      "root": "libs/lib15",
+      "sourceRoot": "libs/lib15/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib15/tsconfig.lib.json",
+            "project": "libs/lib15/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib15/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib15/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib15/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib151": {
+      "projectType": "library",
+      "root": "libs/lib151",
+      "sourceRoot": "libs/lib151/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib151/tsconfig.lib.json",
+            "project": "libs/lib151/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib151/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib151/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib151/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib152": {
+      "projectType": "library",
+      "root": "libs/lib152",
+      "sourceRoot": "libs/lib152/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib152/tsconfig.lib.json",
+            "project": "libs/lib152/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib152/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib152/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib152/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib153": {
+      "projectType": "library",
+      "root": "libs/lib153",
+      "sourceRoot": "libs/lib153/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib153/tsconfig.lib.json",
+            "project": "libs/lib153/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib153/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib153/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib153/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib154": {
+      "projectType": "library",
+      "root": "libs/lib154",
+      "sourceRoot": "libs/lib154/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib154/tsconfig.lib.json",
+            "project": "libs/lib154/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib154/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib154/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib154/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib155": {
+      "projectType": "library",
+      "root": "libs/lib155",
+      "sourceRoot": "libs/lib155/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib155/tsconfig.lib.json",
+            "project": "libs/lib155/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib155/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib155/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib155/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib2": {
+      "projectType": "library",
+      "root": "libs/lib2",
+      "sourceRoot": "libs/lib2/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib2/tsconfig.lib.json",
+            "project": "libs/lib2/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib2/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib2/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib2/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib21": {
+      "projectType": "library",
+      "root": "libs/lib21",
+      "sourceRoot": "libs/lib21/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib21/tsconfig.lib.json",
+            "project": "libs/lib21/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib21/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib21/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib21/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib211": {
+      "projectType": "library",
+      "root": "libs/lib211",
+      "sourceRoot": "libs/lib211/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib211/tsconfig.lib.json",
+            "project": "libs/lib211/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib211/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib211/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib211/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib212": {
+      "projectType": "library",
+      "root": "libs/lib212",
+      "sourceRoot": "libs/lib212/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib212/tsconfig.lib.json",
+            "project": "libs/lib212/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib212/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib212/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib212/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib213": {
+      "projectType": "library",
+      "root": "libs/lib213",
+      "sourceRoot": "libs/lib213/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib213/tsconfig.lib.json",
+            "project": "libs/lib213/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib213/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib213/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib213/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib214": {
+      "projectType": "library",
+      "root": "libs/lib214",
+      "sourceRoot": "libs/lib214/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib214/tsconfig.lib.json",
+            "project": "libs/lib214/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib214/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib214/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib214/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib215": {
+      "projectType": "library",
+      "root": "libs/lib215",
+      "sourceRoot": "libs/lib215/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib215/tsconfig.lib.json",
+            "project": "libs/lib215/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib215/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib215/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib215/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib22": {
+      "projectType": "library",
+      "root": "libs/lib22",
+      "sourceRoot": "libs/lib22/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib22/tsconfig.lib.json",
+            "project": "libs/lib22/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib22/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib22/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib22/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib221": {
+      "projectType": "library",
+      "root": "libs/lib221",
+      "sourceRoot": "libs/lib221/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib221/tsconfig.lib.json",
+            "project": "libs/lib221/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib221/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib221/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib221/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib222": {
+      "projectType": "library",
+      "root": "libs/lib222",
+      "sourceRoot": "libs/lib222/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib222/tsconfig.lib.json",
+            "project": "libs/lib222/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib222/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib222/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib222/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib223": {
+      "projectType": "library",
+      "root": "libs/lib223",
+      "sourceRoot": "libs/lib223/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib223/tsconfig.lib.json",
+            "project": "libs/lib223/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib223/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib223/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib223/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib224": {
+      "projectType": "library",
+      "root": "libs/lib224",
+      "sourceRoot": "libs/lib224/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib224/tsconfig.lib.json",
+            "project": "libs/lib224/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib224/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib224/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib224/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib225": {
+      "projectType": "library",
+      "root": "libs/lib225",
+      "sourceRoot": "libs/lib225/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib225/tsconfig.lib.json",
+            "project": "libs/lib225/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib225/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib225/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib225/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib23": {
+      "projectType": "library",
+      "root": "libs/lib23",
+      "sourceRoot": "libs/lib23/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib23/tsconfig.lib.json",
+            "project": "libs/lib23/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib23/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib23/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib23/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib231": {
+      "projectType": "library",
+      "root": "libs/lib231",
+      "sourceRoot": "libs/lib231/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib231/tsconfig.lib.json",
+            "project": "libs/lib231/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib231/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib231/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib231/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib232": {
+      "projectType": "library",
+      "root": "libs/lib232",
+      "sourceRoot": "libs/lib232/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib232/tsconfig.lib.json",
+            "project": "libs/lib232/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib232/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib232/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib232/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib233": {
+      "projectType": "library",
+      "root": "libs/lib233",
+      "sourceRoot": "libs/lib233/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib233/tsconfig.lib.json",
+            "project": "libs/lib233/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib233/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib233/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib233/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib234": {
+      "projectType": "library",
+      "root": "libs/lib234",
+      "sourceRoot": "libs/lib234/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib234/tsconfig.lib.json",
+            "project": "libs/lib234/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib234/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib234/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib234/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib235": {
+      "projectType": "library",
+      "root": "libs/lib235",
+      "sourceRoot": "libs/lib235/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib235/tsconfig.lib.json",
+            "project": "libs/lib235/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib235/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib235/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib235/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib24": {
+      "projectType": "library",
+      "root": "libs/lib24",
+      "sourceRoot": "libs/lib24/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib24/tsconfig.lib.json",
+            "project": "libs/lib24/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib24/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib24/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib24/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib241": {
+      "projectType": "library",
+      "root": "libs/lib241",
+      "sourceRoot": "libs/lib241/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib241/tsconfig.lib.json",
+            "project": "libs/lib241/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib241/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib241/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib241/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib242": {
+      "projectType": "library",
+      "root": "libs/lib242",
+      "sourceRoot": "libs/lib242/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib242/tsconfig.lib.json",
+            "project": "libs/lib242/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib242/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib242/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib242/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib243": {
+      "projectType": "library",
+      "root": "libs/lib243",
+      "sourceRoot": "libs/lib243/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib243/tsconfig.lib.json",
+            "project": "libs/lib243/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib243/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib243/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib243/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib244": {
+      "projectType": "library",
+      "root": "libs/lib244",
+      "sourceRoot": "libs/lib244/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib244/tsconfig.lib.json",
+            "project": "libs/lib244/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib244/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib244/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib244/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib245": {
+      "projectType": "library",
+      "root": "libs/lib245",
+      "sourceRoot": "libs/lib245/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib245/tsconfig.lib.json",
+            "project": "libs/lib245/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib245/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib245/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib245/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib25": {
+      "projectType": "library",
+      "root": "libs/lib25",
+      "sourceRoot": "libs/lib25/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib25/tsconfig.lib.json",
+            "project": "libs/lib25/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib25/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib25/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib25/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib251": {
+      "projectType": "library",
+      "root": "libs/lib251",
+      "sourceRoot": "libs/lib251/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib251/tsconfig.lib.json",
+            "project": "libs/lib251/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib251/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib251/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib251/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib252": {
+      "projectType": "library",
+      "root": "libs/lib252",
+      "sourceRoot": "libs/lib252/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib252/tsconfig.lib.json",
+            "project": "libs/lib252/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib252/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib252/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib252/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib253": {
+      "projectType": "library",
+      "root": "libs/lib253",
+      "sourceRoot": "libs/lib253/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib253/tsconfig.lib.json",
+            "project": "libs/lib253/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib253/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib253/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib253/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib254": {
+      "projectType": "library",
+      "root": "libs/lib254",
+      "sourceRoot": "libs/lib254/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib254/tsconfig.lib.json",
+            "project": "libs/lib254/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib254/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib254/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib254/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib255": {
+      "projectType": "library",
+      "root": "libs/lib255",
+      "sourceRoot": "libs/lib255/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib255/tsconfig.lib.json",
+            "project": "libs/lib255/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib255/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib255/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib255/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib3": {
+      "projectType": "library",
+      "root": "libs/lib3",
+      "sourceRoot": "libs/lib3/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib3/tsconfig.lib.json",
+            "project": "libs/lib3/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib3/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib3/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib3/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib31": {
+      "projectType": "library",
+      "root": "libs/lib31",
+      "sourceRoot": "libs/lib31/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib31/tsconfig.lib.json",
+            "project": "libs/lib31/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib31/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib31/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib31/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib311": {
+      "projectType": "library",
+      "root": "libs/lib311",
+      "sourceRoot": "libs/lib311/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib311/tsconfig.lib.json",
+            "project": "libs/lib311/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib311/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib311/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib311/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib312": {
+      "projectType": "library",
+      "root": "libs/lib312",
+      "sourceRoot": "libs/lib312/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib312/tsconfig.lib.json",
+            "project": "libs/lib312/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib312/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib312/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib312/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib313": {
+      "projectType": "library",
+      "root": "libs/lib313",
+      "sourceRoot": "libs/lib313/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib313/tsconfig.lib.json",
+            "project": "libs/lib313/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib313/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib313/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib313/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib314": {
+      "projectType": "library",
+      "root": "libs/lib314",
+      "sourceRoot": "libs/lib314/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib314/tsconfig.lib.json",
+            "project": "libs/lib314/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib314/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib314/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib314/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib315": {
+      "projectType": "library",
+      "root": "libs/lib315",
+      "sourceRoot": "libs/lib315/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib315/tsconfig.lib.json",
+            "project": "libs/lib315/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib315/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib315/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib315/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib32": {
+      "projectType": "library",
+      "root": "libs/lib32",
+      "sourceRoot": "libs/lib32/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib32/tsconfig.lib.json",
+            "project": "libs/lib32/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib32/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib32/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib32/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib321": {
+      "projectType": "library",
+      "root": "libs/lib321",
+      "sourceRoot": "libs/lib321/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib321/tsconfig.lib.json",
+            "project": "libs/lib321/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib321/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib321/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib321/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib322": {
+      "projectType": "library",
+      "root": "libs/lib322",
+      "sourceRoot": "libs/lib322/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib322/tsconfig.lib.json",
+            "project": "libs/lib322/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib322/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib322/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib322/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib323": {
+      "projectType": "library",
+      "root": "libs/lib323",
+      "sourceRoot": "libs/lib323/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib323/tsconfig.lib.json",
+            "project": "libs/lib323/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib323/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib323/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib323/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib324": {
+      "projectType": "library",
+      "root": "libs/lib324",
+      "sourceRoot": "libs/lib324/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib324/tsconfig.lib.json",
+            "project": "libs/lib324/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib324/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib324/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib324/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib325": {
+      "projectType": "library",
+      "root": "libs/lib325",
+      "sourceRoot": "libs/lib325/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib325/tsconfig.lib.json",
+            "project": "libs/lib325/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib325/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib325/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib325/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib33": {
+      "projectType": "library",
+      "root": "libs/lib33",
+      "sourceRoot": "libs/lib33/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib33/tsconfig.lib.json",
+            "project": "libs/lib33/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib33/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib33/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib33/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib331": {
+      "projectType": "library",
+      "root": "libs/lib331",
+      "sourceRoot": "libs/lib331/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib331/tsconfig.lib.json",
+            "project": "libs/lib331/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib331/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib331/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib331/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib332": {
+      "projectType": "library",
+      "root": "libs/lib332",
+      "sourceRoot": "libs/lib332/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib332/tsconfig.lib.json",
+            "project": "libs/lib332/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib332/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib332/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib332/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib333": {
+      "projectType": "library",
+      "root": "libs/lib333",
+      "sourceRoot": "libs/lib333/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib333/tsconfig.lib.json",
+            "project": "libs/lib333/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib333/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib333/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib333/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib334": {
+      "projectType": "library",
+      "root": "libs/lib334",
+      "sourceRoot": "libs/lib334/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib334/tsconfig.lib.json",
+            "project": "libs/lib334/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib334/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib334/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib334/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib335": {
+      "projectType": "library",
+      "root": "libs/lib335",
+      "sourceRoot": "libs/lib335/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib335/tsconfig.lib.json",
+            "project": "libs/lib335/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib335/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib335/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib335/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib34": {
+      "projectType": "library",
+      "root": "libs/lib34",
+      "sourceRoot": "libs/lib34/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib34/tsconfig.lib.json",
+            "project": "libs/lib34/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib34/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib34/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib34/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib341": {
+      "projectType": "library",
+      "root": "libs/lib341",
+      "sourceRoot": "libs/lib341/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib341/tsconfig.lib.json",
+            "project": "libs/lib341/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib341/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib341/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib341/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib342": {
+      "projectType": "library",
+      "root": "libs/lib342",
+      "sourceRoot": "libs/lib342/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib342/tsconfig.lib.json",
+            "project": "libs/lib342/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib342/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib342/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib342/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib343": {
+      "projectType": "library",
+      "root": "libs/lib343",
+      "sourceRoot": "libs/lib343/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib343/tsconfig.lib.json",
+            "project": "libs/lib343/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib343/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib343/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib343/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib344": {
+      "projectType": "library",
+      "root": "libs/lib344",
+      "sourceRoot": "libs/lib344/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib344/tsconfig.lib.json",
+            "project": "libs/lib344/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib344/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib344/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib344/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib345": {
+      "projectType": "library",
+      "root": "libs/lib345",
+      "sourceRoot": "libs/lib345/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib345/tsconfig.lib.json",
+            "project": "libs/lib345/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib345/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib345/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib345/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib35": {
+      "projectType": "library",
+      "root": "libs/lib35",
+      "sourceRoot": "libs/lib35/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib35/tsconfig.lib.json",
+            "project": "libs/lib35/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib35/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib35/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib35/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib351": {
+      "projectType": "library",
+      "root": "libs/lib351",
+      "sourceRoot": "libs/lib351/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib351/tsconfig.lib.json",
+            "project": "libs/lib351/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib351/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib351/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib351/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib352": {
+      "projectType": "library",
+      "root": "libs/lib352",
+      "sourceRoot": "libs/lib352/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib352/tsconfig.lib.json",
+            "project": "libs/lib352/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib352/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib352/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib352/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib353": {
+      "projectType": "library",
+      "root": "libs/lib353",
+      "sourceRoot": "libs/lib353/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib353/tsconfig.lib.json",
+            "project": "libs/lib353/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib353/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib353/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib353/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib354": {
+      "projectType": "library",
+      "root": "libs/lib354",
+      "sourceRoot": "libs/lib354/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib354/tsconfig.lib.json",
+            "project": "libs/lib354/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib354/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib354/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib354/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib355": {
+      "projectType": "library",
+      "root": "libs/lib355",
+      "sourceRoot": "libs/lib355/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib355/tsconfig.lib.json",
+            "project": "libs/lib355/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib355/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib355/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib355/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib4": {
+      "projectType": "library",
+      "root": "libs/lib4",
+      "sourceRoot": "libs/lib4/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib4/tsconfig.lib.json",
+            "project": "libs/lib4/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib4/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib4/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib4/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib41": {
+      "projectType": "library",
+      "root": "libs/lib41",
+      "sourceRoot": "libs/lib41/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib41/tsconfig.lib.json",
+            "project": "libs/lib41/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib41/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib41/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib41/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib411": {
+      "projectType": "library",
+      "root": "libs/lib411",
+      "sourceRoot": "libs/lib411/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib411/tsconfig.lib.json",
+            "project": "libs/lib411/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib411/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib411/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib411/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib412": {
+      "projectType": "library",
+      "root": "libs/lib412",
+      "sourceRoot": "libs/lib412/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib412/tsconfig.lib.json",
+            "project": "libs/lib412/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib412/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib412/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib412/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib413": {
+      "projectType": "library",
+      "root": "libs/lib413",
+      "sourceRoot": "libs/lib413/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib413/tsconfig.lib.json",
+            "project": "libs/lib413/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib413/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib413/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib413/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib414": {
+      "projectType": "library",
+      "root": "libs/lib414",
+      "sourceRoot": "libs/lib414/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib414/tsconfig.lib.json",
+            "project": "libs/lib414/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib414/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib414/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib414/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib415": {
+      "projectType": "library",
+      "root": "libs/lib415",
+      "sourceRoot": "libs/lib415/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib415/tsconfig.lib.json",
+            "project": "libs/lib415/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib415/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib415/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib415/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib42": {
+      "projectType": "library",
+      "root": "libs/lib42",
+      "sourceRoot": "libs/lib42/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib42/tsconfig.lib.json",
+            "project": "libs/lib42/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib42/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib42/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib42/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib421": {
+      "projectType": "library",
+      "root": "libs/lib421",
+      "sourceRoot": "libs/lib421/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib421/tsconfig.lib.json",
+            "project": "libs/lib421/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib421/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib421/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib421/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib422": {
+      "projectType": "library",
+      "root": "libs/lib422",
+      "sourceRoot": "libs/lib422/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib422/tsconfig.lib.json",
+            "project": "libs/lib422/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib422/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib422/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib422/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib423": {
+      "projectType": "library",
+      "root": "libs/lib423",
+      "sourceRoot": "libs/lib423/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib423/tsconfig.lib.json",
+            "project": "libs/lib423/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib423/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib423/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib423/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib424": {
+      "projectType": "library",
+      "root": "libs/lib424",
+      "sourceRoot": "libs/lib424/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib424/tsconfig.lib.json",
+            "project": "libs/lib424/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib424/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib424/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib424/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib425": {
+      "projectType": "library",
+      "root": "libs/lib425",
+      "sourceRoot": "libs/lib425/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib425/tsconfig.lib.json",
+            "project": "libs/lib425/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib425/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib425/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib425/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib43": {
+      "projectType": "library",
+      "root": "libs/lib43",
+      "sourceRoot": "libs/lib43/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib43/tsconfig.lib.json",
+            "project": "libs/lib43/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib43/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib43/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib43/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib431": {
+      "projectType": "library",
+      "root": "libs/lib431",
+      "sourceRoot": "libs/lib431/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib431/tsconfig.lib.json",
+            "project": "libs/lib431/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib431/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib431/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib431/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib432": {
+      "projectType": "library",
+      "root": "libs/lib432",
+      "sourceRoot": "libs/lib432/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib432/tsconfig.lib.json",
+            "project": "libs/lib432/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib432/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib432/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib432/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib433": {
+      "projectType": "library",
+      "root": "libs/lib433",
+      "sourceRoot": "libs/lib433/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib433/tsconfig.lib.json",
+            "project": "libs/lib433/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib433/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib433/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib433/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib434": {
+      "projectType": "library",
+      "root": "libs/lib434",
+      "sourceRoot": "libs/lib434/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib434/tsconfig.lib.json",
+            "project": "libs/lib434/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib434/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib434/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib434/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib435": {
+      "projectType": "library",
+      "root": "libs/lib435",
+      "sourceRoot": "libs/lib435/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib435/tsconfig.lib.json",
+            "project": "libs/lib435/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib435/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib435/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib435/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib44": {
+      "projectType": "library",
+      "root": "libs/lib44",
+      "sourceRoot": "libs/lib44/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib44/tsconfig.lib.json",
+            "project": "libs/lib44/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib44/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib44/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib44/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib441": {
+      "projectType": "library",
+      "root": "libs/lib441",
+      "sourceRoot": "libs/lib441/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib441/tsconfig.lib.json",
+            "project": "libs/lib441/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib441/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib441/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib441/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib442": {
+      "projectType": "library",
+      "root": "libs/lib442",
+      "sourceRoot": "libs/lib442/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib442/tsconfig.lib.json",
+            "project": "libs/lib442/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib442/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib442/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib442/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib443": {
+      "projectType": "library",
+      "root": "libs/lib443",
+      "sourceRoot": "libs/lib443/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib443/tsconfig.lib.json",
+            "project": "libs/lib443/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib443/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib443/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib443/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib444": {
+      "projectType": "library",
+      "root": "libs/lib444",
+      "sourceRoot": "libs/lib444/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib444/tsconfig.lib.json",
+            "project": "libs/lib444/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib444/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib444/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib444/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib445": {
+      "projectType": "library",
+      "root": "libs/lib445",
+      "sourceRoot": "libs/lib445/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib445/tsconfig.lib.json",
+            "project": "libs/lib445/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib445/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib445/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib445/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib45": {
+      "projectType": "library",
+      "root": "libs/lib45",
+      "sourceRoot": "libs/lib45/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib45/tsconfig.lib.json",
+            "project": "libs/lib45/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib45/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib45/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib45/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib451": {
+      "projectType": "library",
+      "root": "libs/lib451",
+      "sourceRoot": "libs/lib451/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib451/tsconfig.lib.json",
+            "project": "libs/lib451/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib451/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib451/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib451/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib452": {
+      "projectType": "library",
+      "root": "libs/lib452",
+      "sourceRoot": "libs/lib452/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib452/tsconfig.lib.json",
+            "project": "libs/lib452/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib452/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib452/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib452/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib453": {
+      "projectType": "library",
+      "root": "libs/lib453",
+      "sourceRoot": "libs/lib453/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib453/tsconfig.lib.json",
+            "project": "libs/lib453/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib453/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib453/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib453/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib454": {
+      "projectType": "library",
+      "root": "libs/lib454",
+      "sourceRoot": "libs/lib454/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib454/tsconfig.lib.json",
+            "project": "libs/lib454/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib454/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib454/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib454/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib455": {
+      "projectType": "library",
+      "root": "libs/lib455",
+      "sourceRoot": "libs/lib455/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib455/tsconfig.lib.json",
+            "project": "libs/lib455/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib455/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib455/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib455/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib5": {
+      "projectType": "library",
+      "root": "libs/lib5",
+      "sourceRoot": "libs/lib5/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib5/tsconfig.lib.json",
+            "project": "libs/lib5/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib5/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib5/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib5/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib51": {
+      "projectType": "library",
+      "root": "libs/lib51",
+      "sourceRoot": "libs/lib51/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib51/tsconfig.lib.json",
+            "project": "libs/lib51/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib51/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib51/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib51/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib511": {
+      "projectType": "library",
+      "root": "libs/lib511",
+      "sourceRoot": "libs/lib511/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib511/tsconfig.lib.json",
+            "project": "libs/lib511/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib511/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib511/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib511/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib512": {
+      "projectType": "library",
+      "root": "libs/lib512",
+      "sourceRoot": "libs/lib512/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib512/tsconfig.lib.json",
+            "project": "libs/lib512/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib512/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib512/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib512/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib513": {
+      "projectType": "library",
+      "root": "libs/lib513",
+      "sourceRoot": "libs/lib513/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib513/tsconfig.lib.json",
+            "project": "libs/lib513/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib513/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib513/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib513/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib514": {
+      "projectType": "library",
+      "root": "libs/lib514",
+      "sourceRoot": "libs/lib514/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib514/tsconfig.lib.json",
+            "project": "libs/lib514/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib514/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib514/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib514/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib515": {
+      "projectType": "library",
+      "root": "libs/lib515",
+      "sourceRoot": "libs/lib515/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib515/tsconfig.lib.json",
+            "project": "libs/lib515/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib515/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib515/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib515/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib52": {
+      "projectType": "library",
+      "root": "libs/lib52",
+      "sourceRoot": "libs/lib52/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib52/tsconfig.lib.json",
+            "project": "libs/lib52/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib52/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib52/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib52/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib521": {
+      "projectType": "library",
+      "root": "libs/lib521",
+      "sourceRoot": "libs/lib521/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib521/tsconfig.lib.json",
+            "project": "libs/lib521/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib521/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib521/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib521/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib522": {
+      "projectType": "library",
+      "root": "libs/lib522",
+      "sourceRoot": "libs/lib522/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib522/tsconfig.lib.json",
+            "project": "libs/lib522/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib522/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib522/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib522/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib523": {
+      "projectType": "library",
+      "root": "libs/lib523",
+      "sourceRoot": "libs/lib523/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib523/tsconfig.lib.json",
+            "project": "libs/lib523/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib523/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib523/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib523/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib524": {
+      "projectType": "library",
+      "root": "libs/lib524",
+      "sourceRoot": "libs/lib524/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib524/tsconfig.lib.json",
+            "project": "libs/lib524/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib524/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib524/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib524/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib525": {
+      "projectType": "library",
+      "root": "libs/lib525",
+      "sourceRoot": "libs/lib525/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib525/tsconfig.lib.json",
+            "project": "libs/lib525/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib525/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib525/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib525/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib53": {
+      "projectType": "library",
+      "root": "libs/lib53",
+      "sourceRoot": "libs/lib53/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib53/tsconfig.lib.json",
+            "project": "libs/lib53/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib53/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib53/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib53/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib531": {
+      "projectType": "library",
+      "root": "libs/lib531",
+      "sourceRoot": "libs/lib531/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib531/tsconfig.lib.json",
+            "project": "libs/lib531/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib531/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib531/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib531/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib532": {
+      "projectType": "library",
+      "root": "libs/lib532",
+      "sourceRoot": "libs/lib532/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib532/tsconfig.lib.json",
+            "project": "libs/lib532/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib532/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib532/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib532/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib533": {
+      "projectType": "library",
+      "root": "libs/lib533",
+      "sourceRoot": "libs/lib533/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib533/tsconfig.lib.json",
+            "project": "libs/lib533/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib533/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib533/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib533/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib534": {
+      "projectType": "library",
+      "root": "libs/lib534",
+      "sourceRoot": "libs/lib534/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib534/tsconfig.lib.json",
+            "project": "libs/lib534/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib534/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib534/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib534/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib535": {
+      "projectType": "library",
+      "root": "libs/lib535",
+      "sourceRoot": "libs/lib535/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib535/tsconfig.lib.json",
+            "project": "libs/lib535/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib535/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib535/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib535/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib54": {
+      "projectType": "library",
+      "root": "libs/lib54",
+      "sourceRoot": "libs/lib54/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib54/tsconfig.lib.json",
+            "project": "libs/lib54/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib54/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib54/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib54/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib541": {
+      "projectType": "library",
+      "root": "libs/lib541",
+      "sourceRoot": "libs/lib541/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib541/tsconfig.lib.json",
+            "project": "libs/lib541/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib541/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib541/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib541/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib542": {
+      "projectType": "library",
+      "root": "libs/lib542",
+      "sourceRoot": "libs/lib542/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib542/tsconfig.lib.json",
+            "project": "libs/lib542/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib542/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib542/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib542/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib543": {
+      "projectType": "library",
+      "root": "libs/lib543",
+      "sourceRoot": "libs/lib543/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib543/tsconfig.lib.json",
+            "project": "libs/lib543/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib543/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib543/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib543/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib544": {
+      "projectType": "library",
+      "root": "libs/lib544",
+      "sourceRoot": "libs/lib544/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib544/tsconfig.lib.json",
+            "project": "libs/lib544/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib544/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib544/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib544/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib545": {
+      "projectType": "library",
+      "root": "libs/lib545",
+      "sourceRoot": "libs/lib545/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib545/tsconfig.lib.json",
+            "project": "libs/lib545/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib545/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib545/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib545/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib55": {
+      "projectType": "library",
+      "root": "libs/lib55",
+      "sourceRoot": "libs/lib55/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib55/tsconfig.lib.json",
+            "project": "libs/lib55/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib55/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib55/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib55/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib551": {
+      "projectType": "library",
+      "root": "libs/lib551",
+      "sourceRoot": "libs/lib551/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib551/tsconfig.lib.json",
+            "project": "libs/lib551/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib551/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib551/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib551/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib552": {
+      "projectType": "library",
+      "root": "libs/lib552",
+      "sourceRoot": "libs/lib552/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib552/tsconfig.lib.json",
+            "project": "libs/lib552/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib552/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib552/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib552/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib553": {
+      "projectType": "library",
+      "root": "libs/lib553",
+      "sourceRoot": "libs/lib553/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib553/tsconfig.lib.json",
+            "project": "libs/lib553/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib553/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib553/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib553/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib554": {
+      "projectType": "library",
+      "root": "libs/lib554",
+      "sourceRoot": "libs/lib554/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib554/tsconfig.lib.json",
+            "project": "libs/lib554/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib554/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib554/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib554/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "lib555": {
+      "projectType": "library",
+      "root": "libs/lib555",
+      "sourceRoot": "libs/lib555/src",
+      "prefix": "test",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/lib555/tsconfig.lib.json",
+            "project": "libs/lib555/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/lib555/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib555/tsconfig.lib.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib555/**/*"
+            ]
+          }
+        }
+      },
+      "schematics": {}
     }
   },
   "cli": {
