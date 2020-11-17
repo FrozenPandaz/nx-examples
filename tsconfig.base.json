@@ -10,12 +10,486 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "typeRoots": ["node_modules/@types"],
-    "lib": ["es2017", "dom"],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@test/lib1": [
+        "libs/lib1/src/index.ts"
+      ],
+      "@test/lib11": [
+        "libs/lib11/src/index.ts"
+      ],
+      "@test/lib111": [
+        "libs/lib111/src/index.ts"
+      ],
+      "@test/lib112": [
+        "libs/lib112/src/index.ts"
+      ],
+      "@test/lib113": [
+        "libs/lib113/src/index.ts"
+      ],
+      "@test/lib114": [
+        "libs/lib114/src/index.ts"
+      ],
+      "@test/lib115": [
+        "libs/lib115/src/index.ts"
+      ],
+      "@test/lib12": [
+        "libs/lib12/src/index.ts"
+      ],
+      "@test/lib121": [
+        "libs/lib121/src/index.ts"
+      ],
+      "@test/lib122": [
+        "libs/lib122/src/index.ts"
+      ],
+      "@test/lib123": [
+        "libs/lib123/src/index.ts"
+      ],
+      "@test/lib124": [
+        "libs/lib124/src/index.ts"
+      ],
+      "@test/lib125": [
+        "libs/lib125/src/index.ts"
+      ],
+      "@test/lib13": [
+        "libs/lib13/src/index.ts"
+      ],
+      "@test/lib131": [
+        "libs/lib131/src/index.ts"
+      ],
+      "@test/lib132": [
+        "libs/lib132/src/index.ts"
+      ],
+      "@test/lib133": [
+        "libs/lib133/src/index.ts"
+      ],
+      "@test/lib134": [
+        "libs/lib134/src/index.ts"
+      ],
+      "@test/lib135": [
+        "libs/lib135/src/index.ts"
+      ],
+      "@test/lib14": [
+        "libs/lib14/src/index.ts"
+      ],
+      "@test/lib141": [
+        "libs/lib141/src/index.ts"
+      ],
+      "@test/lib142": [
+        "libs/lib142/src/index.ts"
+      ],
+      "@test/lib143": [
+        "libs/lib143/src/index.ts"
+      ],
+      "@test/lib144": [
+        "libs/lib144/src/index.ts"
+      ],
+      "@test/lib145": [
+        "libs/lib145/src/index.ts"
+      ],
+      "@test/lib15": [
+        "libs/lib15/src/index.ts"
+      ],
+      "@test/lib151": [
+        "libs/lib151/src/index.ts"
+      ],
+      "@test/lib152": [
+        "libs/lib152/src/index.ts"
+      ],
+      "@test/lib153": [
+        "libs/lib153/src/index.ts"
+      ],
+      "@test/lib154": [
+        "libs/lib154/src/index.ts"
+      ],
+      "@test/lib155": [
+        "libs/lib155/src/index.ts"
+      ],
+      "@test/lib2": [
+        "libs/lib2/src/index.ts"
+      ],
+      "@test/lib21": [
+        "libs/lib21/src/index.ts"
+      ],
+      "@test/lib211": [
+        "libs/lib211/src/index.ts"
+      ],
+      "@test/lib212": [
+        "libs/lib212/src/index.ts"
+      ],
+      "@test/lib213": [
+        "libs/lib213/src/index.ts"
+      ],
+      "@test/lib214": [
+        "libs/lib214/src/index.ts"
+      ],
+      "@test/lib215": [
+        "libs/lib215/src/index.ts"
+      ],
+      "@test/lib22": [
+        "libs/lib22/src/index.ts"
+      ],
+      "@test/lib221": [
+        "libs/lib221/src/index.ts"
+      ],
+      "@test/lib222": [
+        "libs/lib222/src/index.ts"
+      ],
+      "@test/lib223": [
+        "libs/lib223/src/index.ts"
+      ],
+      "@test/lib224": [
+        "libs/lib224/src/index.ts"
+      ],
+      "@test/lib225": [
+        "libs/lib225/src/index.ts"
+      ],
+      "@test/lib23": [
+        "libs/lib23/src/index.ts"
+      ],
+      "@test/lib231": [
+        "libs/lib231/src/index.ts"
+      ],
+      "@test/lib232": [
+        "libs/lib232/src/index.ts"
+      ],
+      "@test/lib233": [
+        "libs/lib233/src/index.ts"
+      ],
+      "@test/lib234": [
+        "libs/lib234/src/index.ts"
+      ],
+      "@test/lib235": [
+        "libs/lib235/src/index.ts"
+      ],
+      "@test/lib24": [
+        "libs/lib24/src/index.ts"
+      ],
+      "@test/lib241": [
+        "libs/lib241/src/index.ts"
+      ],
+      "@test/lib242": [
+        "libs/lib242/src/index.ts"
+      ],
+      "@test/lib243": [
+        "libs/lib243/src/index.ts"
+      ],
+      "@test/lib244": [
+        "libs/lib244/src/index.ts"
+      ],
+      "@test/lib245": [
+        "libs/lib245/src/index.ts"
+      ],
+      "@test/lib25": [
+        "libs/lib25/src/index.ts"
+      ],
+      "@test/lib251": [
+        "libs/lib251/src/index.ts"
+      ],
+      "@test/lib252": [
+        "libs/lib252/src/index.ts"
+      ],
+      "@test/lib253": [
+        "libs/lib253/src/index.ts"
+      ],
+      "@test/lib254": [
+        "libs/lib254/src/index.ts"
+      ],
+      "@test/lib255": [
+        "libs/lib255/src/index.ts"
+      ],
+      "@test/lib3": [
+        "libs/lib3/src/index.ts"
+      ],
+      "@test/lib31": [
+        "libs/lib31/src/index.ts"
+      ],
+      "@test/lib311": [
+        "libs/lib311/src/index.ts"
+      ],
+      "@test/lib312": [
+        "libs/lib312/src/index.ts"
+      ],
+      "@test/lib313": [
+        "libs/lib313/src/index.ts"
+      ],
+      "@test/lib314": [
+        "libs/lib314/src/index.ts"
+      ],
+      "@test/lib315": [
+        "libs/lib315/src/index.ts"
+      ],
+      "@test/lib32": [
+        "libs/lib32/src/index.ts"
+      ],
+      "@test/lib321": [
+        "libs/lib321/src/index.ts"
+      ],
+      "@test/lib322": [
+        "libs/lib322/src/index.ts"
+      ],
+      "@test/lib323": [
+        "libs/lib323/src/index.ts"
+      ],
+      "@test/lib324": [
+        "libs/lib324/src/index.ts"
+      ],
+      "@test/lib325": [
+        "libs/lib325/src/index.ts"
+      ],
+      "@test/lib33": [
+        "libs/lib33/src/index.ts"
+      ],
+      "@test/lib331": [
+        "libs/lib331/src/index.ts"
+      ],
+      "@test/lib332": [
+        "libs/lib332/src/index.ts"
+      ],
+      "@test/lib333": [
+        "libs/lib333/src/index.ts"
+      ],
+      "@test/lib334": [
+        "libs/lib334/src/index.ts"
+      ],
+      "@test/lib335": [
+        "libs/lib335/src/index.ts"
+      ],
+      "@test/lib34": [
+        "libs/lib34/src/index.ts"
+      ],
+      "@test/lib341": [
+        "libs/lib341/src/index.ts"
+      ],
+      "@test/lib342": [
+        "libs/lib342/src/index.ts"
+      ],
+      "@test/lib343": [
+        "libs/lib343/src/index.ts"
+      ],
+      "@test/lib344": [
+        "libs/lib344/src/index.ts"
+      ],
+      "@test/lib345": [
+        "libs/lib345/src/index.ts"
+      ],
+      "@test/lib35": [
+        "libs/lib35/src/index.ts"
+      ],
+      "@test/lib351": [
+        "libs/lib351/src/index.ts"
+      ],
+      "@test/lib352": [
+        "libs/lib352/src/index.ts"
+      ],
+      "@test/lib353": [
+        "libs/lib353/src/index.ts"
+      ],
+      "@test/lib354": [
+        "libs/lib354/src/index.ts"
+      ],
+      "@test/lib355": [
+        "libs/lib355/src/index.ts"
+      ],
+      "@test/lib4": [
+        "libs/lib4/src/index.ts"
+      ],
+      "@test/lib41": [
+        "libs/lib41/src/index.ts"
+      ],
+      "@test/lib411": [
+        "libs/lib411/src/index.ts"
+      ],
+      "@test/lib412": [
+        "libs/lib412/src/index.ts"
+      ],
+      "@test/lib413": [
+        "libs/lib413/src/index.ts"
+      ],
+      "@test/lib414": [
+        "libs/lib414/src/index.ts"
+      ],
+      "@test/lib415": [
+        "libs/lib415/src/index.ts"
+      ],
+      "@test/lib42": [
+        "libs/lib42/src/index.ts"
+      ],
+      "@test/lib421": [
+        "libs/lib421/src/index.ts"
+      ],
+      "@test/lib422": [
+        "libs/lib422/src/index.ts"
+      ],
+      "@test/lib423": [
+        "libs/lib423/src/index.ts"
+      ],
+      "@test/lib424": [
+        "libs/lib424/src/index.ts"
+      ],
+      "@test/lib425": [
+        "libs/lib425/src/index.ts"
+      ],
+      "@test/lib43": [
+        "libs/lib43/src/index.ts"
+      ],
+      "@test/lib431": [
+        "libs/lib431/src/index.ts"
+      ],
+      "@test/lib432": [
+        "libs/lib432/src/index.ts"
+      ],
+      "@test/lib433": [
+        "libs/lib433/src/index.ts"
+      ],
+      "@test/lib434": [
+        "libs/lib434/src/index.ts"
+      ],
+      "@test/lib435": [
+        "libs/lib435/src/index.ts"
+      ],
+      "@test/lib44": [
+        "libs/lib44/src/index.ts"
+      ],
+      "@test/lib441": [
+        "libs/lib441/src/index.ts"
+      ],
+      "@test/lib442": [
+        "libs/lib442/src/index.ts"
+      ],
+      "@test/lib443": [
+        "libs/lib443/src/index.ts"
+      ],
+      "@test/lib444": [
+        "libs/lib444/src/index.ts"
+      ],
+      "@test/lib445": [
+        "libs/lib445/src/index.ts"
+      ],
+      "@test/lib45": [
+        "libs/lib45/src/index.ts"
+      ],
+      "@test/lib451": [
+        "libs/lib451/src/index.ts"
+      ],
+      "@test/lib452": [
+        "libs/lib452/src/index.ts"
+      ],
+      "@test/lib453": [
+        "libs/lib453/src/index.ts"
+      ],
+      "@test/lib454": [
+        "libs/lib454/src/index.ts"
+      ],
+      "@test/lib455": [
+        "libs/lib455/src/index.ts"
+      ],
+      "@test/lib5": [
+        "libs/lib5/src/index.ts"
+      ],
+      "@test/lib51": [
+        "libs/lib51/src/index.ts"
+      ],
+      "@test/lib511": [
+        "libs/lib511/src/index.ts"
+      ],
+      "@test/lib512": [
+        "libs/lib512/src/index.ts"
+      ],
+      "@test/lib513": [
+        "libs/lib513/src/index.ts"
+      ],
+      "@test/lib514": [
+        "libs/lib514/src/index.ts"
+      ],
+      "@test/lib515": [
+        "libs/lib515/src/index.ts"
+      ],
+      "@test/lib52": [
+        "libs/lib52/src/index.ts"
+      ],
+      "@test/lib521": [
+        "libs/lib521/src/index.ts"
+      ],
+      "@test/lib522": [
+        "libs/lib522/src/index.ts"
+      ],
+      "@test/lib523": [
+        "libs/lib523/src/index.ts"
+      ],
+      "@test/lib524": [
+        "libs/lib524/src/index.ts"
+      ],
+      "@test/lib525": [
+        "libs/lib525/src/index.ts"
+      ],
+      "@test/lib53": [
+        "libs/lib53/src/index.ts"
+      ],
+      "@test/lib531": [
+        "libs/lib531/src/index.ts"
+      ],
+      "@test/lib532": [
+        "libs/lib532/src/index.ts"
+      ],
+      "@test/lib533": [
+        "libs/lib533/src/index.ts"
+      ],
+      "@test/lib534": [
+        "libs/lib534/src/index.ts"
+      ],
+      "@test/lib535": [
+        "libs/lib535/src/index.ts"
+      ],
+      "@test/lib54": [
+        "libs/lib54/src/index.ts"
+      ],
+      "@test/lib541": [
+        "libs/lib541/src/index.ts"
+      ],
+      "@test/lib542": [
+        "libs/lib542/src/index.ts"
+      ],
+      "@test/lib543": [
+        "libs/lib543/src/index.ts"
+      ],
+      "@test/lib544": [
+        "libs/lib544/src/index.ts"
+      ],
+      "@test/lib545": [
+        "libs/lib545/src/index.ts"
+      ],
+      "@test/lib55": [
+        "libs/lib55/src/index.ts"
+      ],
+      "@test/lib551": [
+        "libs/lib551/src/index.ts"
+      ],
+      "@test/lib552": [
+        "libs/lib552/src/index.ts"
+      ],
+      "@test/lib553": [
+        "libs/lib553/src/index.ts"
+      ],
+      "@test/lib554": [
+        "libs/lib554/src/index.ts"
+      ],
+      "@test/lib555": [
+        "libs/lib555/src/index.ts"
+      ]
+    }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
 }

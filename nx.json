@@ -18,7 +18,12 @@
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ]
       }
     }
   },
@@ -28,7 +33,474 @@
     },
     "test-app-e2e": {
       "tags": [],
-      "implicitDependencies": ["test-app"]
+      "implicitDependencies": [
+        "test-app"
+      ]
+    },
+    "lib1": {
+      "tags": []
+    },
+    "lib11": {
+      "tags": []
+    },
+    "lib111": {
+      "tags": []
+    },
+    "lib112": {
+      "tags": []
+    },
+    "lib113": {
+      "tags": []
+    },
+    "lib114": {
+      "tags": []
+    },
+    "lib115": {
+      "tags": []
+    },
+    "lib12": {
+      "tags": []
+    },
+    "lib121": {
+      "tags": []
+    },
+    "lib122": {
+      "tags": []
+    },
+    "lib123": {
+      "tags": []
+    },
+    "lib124": {
+      "tags": []
+    },
+    "lib125": {
+      "tags": []
+    },
+    "lib13": {
+      "tags": []
+    },
+    "lib131": {
+      "tags": []
+    },
+    "lib132": {
+      "tags": []
+    },
+    "lib133": {
+      "tags": []
+    },
+    "lib134": {
+      "tags": []
+    },
+    "lib135": {
+      "tags": []
+    },
+    "lib14": {
+      "tags": []
+    },
+    "lib141": {
+      "tags": []
+    },
+    "lib142": {
+      "tags": []
+    },
+    "lib143": {
+      "tags": []
+    },
+    "lib144": {
+      "tags": []
+    },
+    "lib145": {
+      "tags": []
+    },
+    "lib15": {
+      "tags": []
+    },
+    "lib151": {
+      "tags": []
+    },
+    "lib152": {
+      "tags": []
+    },
+    "lib153": {
+      "tags": []
+    },
+    "lib154": {
+      "tags": []
+    },
+    "lib155": {
+      "tags": []
+    },
+    "lib2": {
+      "tags": []
+    },
+    "lib21": {
+      "tags": []
+    },
+    "lib211": {
+      "tags": []
+    },
+    "lib212": {
+      "tags": []
+    },
+    "lib213": {
+      "tags": []
+    },
+    "lib214": {
+      "tags": []
+    },
+    "lib215": {
+      "tags": []
+    },
+    "lib22": {
+      "tags": []
+    },
+    "lib221": {
+      "tags": []
+    },
+    "lib222": {
+      "tags": []
+    },
+    "lib223": {
+      "tags": []
+    },
+    "lib224": {
+      "tags": []
+    },
+    "lib225": {
+      "tags": []
+    },
+    "lib23": {
+      "tags": []
+    },
+    "lib231": {
+      "tags": []
+    },
+    "lib232": {
+      "tags": []
+    },
+    "lib233": {
+      "tags": []
+    },
+    "lib234": {
+      "tags": []
+    },
+    "lib235": {
+      "tags": []
+    },
+    "lib24": {
+      "tags": []
+    },
+    "lib241": {
+      "tags": []
+    },
+    "lib242": {
+      "tags": []
+    },
+    "lib243": {
+      "tags": []
+    },
+    "lib244": {
+      "tags": []
+    },
+    "lib245": {
+      "tags": []
+    },
+    "lib25": {
+      "tags": []
+    },
+    "lib251": {
+      "tags": []
+    },
+    "lib252": {
+      "tags": []
+    },
+    "lib253": {
+      "tags": []
+    },
+    "lib254": {
+      "tags": []
+    },
+    "lib255": {
+      "tags": []
+    },
+    "lib3": {
+      "tags": []
+    },
+    "lib31": {
+      "tags": []
+    },
+    "lib311": {
+      "tags": []
+    },
+    "lib312": {
+      "tags": []
+    },
+    "lib313": {
+      "tags": []
+    },
+    "lib314": {
+      "tags": []
+    },
+    "lib315": {
+      "tags": []
+    },
+    "lib32": {
+      "tags": []
+    },
+    "lib321": {
+      "tags": []
+    },
+    "lib322": {
+      "tags": []
+    },
+    "lib323": {
+      "tags": []
+    },
+    "lib324": {
+      "tags": []
+    },
+    "lib325": {
+      "tags": []
+    },
+    "lib33": {
+      "tags": []
+    },
+    "lib331": {
+      "tags": []
+    },
+    "lib332": {
+      "tags": []
+    },
+    "lib333": {
+      "tags": []
+    },
+    "lib334": {
+      "tags": []
+    },
+    "lib335": {
+      "tags": []
+    },
+    "lib34": {
+      "tags": []
+    },
+    "lib341": {
+      "tags": []
+    },
+    "lib342": {
+      "tags": []
+    },
+    "lib343": {
+      "tags": []
+    },
+    "lib344": {
+      "tags": []
+    },
+    "lib345": {
+      "tags": []
+    },
+    "lib35": {
+      "tags": []
+    },
+    "lib351": {
+      "tags": []
+    },
+    "lib352": {
+      "tags": []
+    },
+    "lib353": {
+      "tags": []
+    },
+    "lib354": {
+      "tags": []
+    },
+    "lib355": {
+      "tags": []
+    },
+    "lib4": {
+      "tags": []
+    },
+    "lib41": {
+      "tags": []
+    },
+    "lib411": {
+      "tags": []
+    },
+    "lib412": {
+      "tags": []
+    },
+    "lib413": {
+      "tags": []
+    },
+    "lib414": {
+      "tags": []
+    },
+    "lib415": {
+      "tags": []
+    },
+    "lib42": {
+      "tags": []
+    },
+    "lib421": {
+      "tags": []
+    },
+    "lib422": {
+      "tags": []
+    },
+    "lib423": {
+      "tags": []
+    },
+    "lib424": {
+      "tags": []
+    },
+    "lib425": {
+      "tags": []
+    },
+    "lib43": {
+      "tags": []
+    },
+    "lib431": {
+      "tags": []
+    },
+    "lib432": {
+      "tags": []
+    },
+    "lib433": {
+      "tags": []
+    },
+    "lib434": {
+      "tags": []
+    },
+    "lib435": {
+      "tags": []
+    },
+    "lib44": {
+      "tags": []
+    },
+    "lib441": {
+      "tags": []
+    },
+    "lib442": {
+      "tags": []
+    },
+    "lib443": {
+      "tags": []
+    },
+    "lib444": {
+      "tags": []
+    },
+    "lib445": {
+      "tags": []
+    },
+    "lib45": {
+      "tags": []
+    },
+    "lib451": {
+      "tags": []
+    },
+    "lib452": {
+      "tags": []
+    },
+    "lib453": {
+      "tags": []
+    },
+    "lib454": {
+      "tags": []
+    },
+    "lib455": {
+      "tags": []
+    },
+    "lib5": {
+      "tags": []
+    },
+    "lib51": {
+      "tags": []
+    },
+    "lib511": {
+      "tags": []
+    },
+    "lib512": {
+      "tags": []
+    },
+    "lib513": {
+      "tags": []
+    },
+    "lib514": {
+      "tags": []
+    },
+    "lib515": {
+      "tags": []
+    },
+    "lib52": {
+      "tags": []
+    },
+    "lib521": {
+      "tags": []
+    },
+    "lib522": {
+      "tags": []
+    },
+    "lib523": {
+      "tags": []
+    },
+    "lib524": {
+      "tags": []
+    },
+    "lib525": {
+      "tags": []
+    },
+    "lib53": {
+      "tags": []
+    },
+    "lib531": {
+      "tags": []
+    },
+    "lib532": {
+      "tags": []
+    },
+    "lib533": {
+      "tags": []
+    },
+    "lib534": {
+      "tags": []
+    },
+    "lib535": {
+      "tags": []
+    },
+    "lib54": {
+      "tags": []
+    },
+    "lib541": {
+      "tags": []
+    },
+    "lib542": {
+      "tags": []
+    },
+    "lib543": {
+      "tags": []
+    },
+    "lib544": {
+      "tags": []
+    },
+    "lib545": {
+      "tags": []
+    },
+    "lib55": {
+      "tags": []
+    },
+    "lib551": {
+      "tags": []
+    },
+    "lib552": {
+      "tags": []
+    },
+    "lib553": {
+      "tags": []
+    },
+    "lib554": {
+      "tags": []
+    },
+    "lib555": {
+      "tags": []
     }
   }
 }
