@@ -2,7 +2,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "rootDir": ".",
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
