@@ -4307,40 +4307,40 @@
     node-gyp "^6.1.0"
     read-package-json-fast "^1.1.3"
 
-"@nrwl/angular@11.5.0-beta.0":
-  version "11.5.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/angular/-/angular-11.5.0-beta.0.tgz#eb164c9b393aa635bb09cd6eed9efa8bf323c115"
-  integrity sha512-Tpt5MNQkPDkd8ryI5+NK116J0QNxL10G2GFTTcYCeDxL1tl5W1xg+7Qe26VTzBggkkihfPPz9UNmukvoM4w3VA==
+"@nrwl/angular@11.5.0":
+  version "11.5.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/angular/-/angular-11.5.0.tgz#ca72d4b2381c76a8d3c88580d7465207f19fea4b"
+  integrity sha512-CF97h3pENW/xX+Lf84bk2UUH9XMreAkSyVfJeCOCXmxKifXkH6S6Q4WVaHeABqZi50NBF1oA2ZXi+R4ZWGGCfA==
   dependencies:
     "@angular-devkit/schematics" "~11.2.0"
-    "@nrwl/cypress" "11.5.0-beta.0"
-    "@nrwl/devkit" "11.5.0-beta.0"
-    "@nrwl/jest" "11.5.0-beta.0"
-    "@nrwl/linter" "11.5.0-beta.0"
+    "@nrwl/cypress" "11.5.0"
+    "@nrwl/devkit" "11.5.0"
+    "@nrwl/jest" "11.5.0"
+    "@nrwl/linter" "11.5.0"
     "@schematics/angular" "~11.2.0"
     jasmine-marbles "~0.6.0"
     tslib "^2.0.0"
 
-"@nrwl/cli@11.5.0-beta.0":
-  version "11.5.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-11.5.0-beta.0.tgz#9f86dccf4f925843085ed0b0f6937bca0f765b67"
-  integrity sha512-w1rKfdqc6QbAGe5LO9t96ast8TEBAS8fFPbLhCQi6LeRInHCkKccblLaNvENCmKu1EankBxiiosVLJndUfeeAg==
+"@nrwl/cli@11.5.0":
+  version "11.5.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-11.5.0.tgz#080d760f82978015571883ff8c6e63b9e89c20d7"
+  integrity sha512-FTorH8YQv4nrWFIGq5apFnelYYCTICFy+VCzpjZ7/mzZ8JnvzvDmTWREUaqd5lj8TG0BS0qrjC9vPFFaIOsQMg==
   dependencies:
-    "@nrwl/tao" "11.5.0-beta.0"
+    "@nrwl/tao" "11.5.0"
     chalk "4.1.0"
     tmp "0.0.33"
     yargs "15.4.1"
     yargs-parser "20.0.0"
 
-"@nrwl/cypress@11.5.0-beta.0":
-  version "11.5.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-11.5.0-beta.0.tgz#9dd2cd8c4a1a8efd24d07d401be427f468f5d2e3"
-  integrity sha512-NRywJhjE4A1LMceCvmv/wxW4H1iOjM3AKxtElA/FegZ1z8BcqZvT03fXot5cBqUv4OEND37INLAlr/mieuNdYA==
+"@nrwl/cypress@11.5.0":
+  version "11.5.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-11.5.0.tgz#8a6f765d069cf6be8cea5791a17e83ea5a642d66"
+  integrity sha512-y9kUNu0NtL7Cqr5hnvgHLEBm5kjU4NUSMJEOCPZ85Wi61Yqm+ZQ3FYglZ1jlzj5UWCVeGSuVtC+pmyzyPJPYRw==
   dependencies:
     "@cypress/webpack-preprocessor" "~4.1.2"
-    "@nrwl/devkit" "11.5.0-beta.0"
-    "@nrwl/linter" "11.5.0-beta.0"
-    "@nrwl/workspace" "11.5.0-beta.0"
+    "@nrwl/devkit" "11.5.0"
+    "@nrwl/linter" "11.5.0"
+    "@nrwl/workspace" "11.5.0"
     fork-ts-checker-webpack-plugin "^3.1.1"
     fs-extra "7.0.1"
     rxjs "^6.5.4"
@@ -4351,35 +4351,35 @@
     webpack-node-externals "1.7.2"
     yargs-parser "20.0.0"
 
-"@nrwl/devkit@11.5.0-beta.0":
-  version "11.5.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-11.5.0-beta.0.tgz#5ca86a29721829ade1c25e286880fde5d335e8f7"
-  integrity sha512-P8Z51wRIfFrUYyx3UMJoA/ru00HcLRu8YbvKRgvn2CnHN/SoXJJUCht7zpoDhcAxp/KsW1idV5rM2JC9LCp5YA==
+"@nrwl/devkit@11.5.0":
+  version "11.5.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-11.5.0.tgz#b3633ebdb56ef73b74d096d1e575fbdfc47bc592"
+  integrity sha512-9MF4PgG+643dJbxkgTQR45EI8gNpiIFCxRk3NQ/Xa5jHaKO2vbt6rlZem95o/BNJhJXzmD1JWDADgeXrgtaEDw==
   dependencies:
-    "@nrwl/tao" "11.5.0-beta.0"
+    "@nrwl/tao" "11.5.0"
     ejs "^3.1.5"
     ignore "^5.0.4"
     semver "6.3.0"
     strip-json-comments "2.0.1"
     tslib "^2.0.0"
 
-"@nrwl/jest@11.5.0-beta.0":
-  version "11.5.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-11.5.0-beta.0.tgz#4698135bd12b177b9724d3f2d3d6d8c9d7afc836"
-  integrity sha512-BgDyjT3W2QaNMSzjZJAWEcloXFavJ/BOMvloDvihKYGCE7N73rBlIUa9/fCNX1PCVnQw0nQwvjT3IpDtz5dk0g==
+"@nrwl/jest@11.5.0":
+  version "11.5.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-11.5.0.tgz#28f6353554ab18caca69b6e30996b6ec7576b9b8"
+  integrity sha512-fBX2cWd2WOHriPrV7Z08eohYwg9jf9Wo6mD7WyUt32/3fVd9nBRzokDb3mc/Vs9H2kfnxPmVh/pczU4jDB0SNA==
   dependencies:
-    "@nrwl/devkit" "11.5.0-beta.0"
+    "@nrwl/devkit" "11.5.0"
     jest-resolve "^26.6.2"
     rxjs "^6.5.4"
     strip-json-comments "2.0.1"
     tslib "^2.0.0"
 
-"@nrwl/linter@11.5.0-beta.0":
-  version "11.5.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/linter/-/linter-11.5.0-beta.0.tgz#8aa8a06b36030309e2affd3de249660387ca13a8"
-  integrity sha512-T5idjhVFdoMekfTMZHux9lEX7s2HuTcB18x6wsMiWg+ghafFQkR7aVz0pc1OdYuW2m8jmfioFvpcQJCx7tUERg==
+"@nrwl/linter@11.5.0":
+  version "11.5.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/linter/-/linter-11.5.0.tgz#8018198d44d3f16d32b7b721d1780ea0ec1fcf88"
+  integrity sha512-tXLmiaJdimIM8nFxorDkqJVHKt+SJ6JcOnmnmYcU5nWXL7W4xnT7kIT3KxdnXC7FXsCyo33kXpJ0xQJYsWH+Xg==
   dependencies:
-    "@nrwl/devkit" "11.5.0-beta.0"
+    "@nrwl/devkit" "11.5.0"
     glob "7.1.4"
     minimatch "3.0.4"
     tslib "^2.0.0"
@@ -4396,20 +4396,20 @@
     tar "5.0.5"
     uuid "^3.3.3"
 
-"@nrwl/react@11.5.0-beta.0":
-  version "11.5.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-11.5.0-beta.0.tgz#aa2e07e420118b1d0f3a82a5c2e66a94c118857a"
-  integrity sha512-rsfhBzbKLe1aPEG/qvgB/ANyNfkdesFn2vReka8HITBrIsBsEf4deGx6rvR/ZOFmVbferZzmZuMF8pmllIIhEw==
+"@nrwl/react@11.5.0":
+  version "11.5.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-11.5.0.tgz#5d0a51052e92d267249615cc17919ed0797cab28"
+  integrity sha512-WmLoezrt3lvQlVyPitkZo3SzvncS5JjK5MZWRJRFVlHI3TTCWkWPeY330X+o4fK4aUpH2GWYczrJf1jWECA84Q==
   dependencies:
     "@babel/core" "7.9.6"
     "@babel/preset-react" "7.9.4"
-    "@nrwl/cypress" "11.5.0-beta.0"
-    "@nrwl/devkit" "11.5.0-beta.0"
-    "@nrwl/jest" "11.5.0-beta.0"
-    "@nrwl/linter" "11.5.0-beta.0"
-    "@nrwl/storybook" "11.5.0-beta.0"
-    "@nrwl/web" "11.5.0-beta.0"
-    "@nrwl/workspace" "11.5.0-beta.0"
+    "@nrwl/cypress" "11.5.0"
+    "@nrwl/devkit" "11.5.0"
+    "@nrwl/jest" "11.5.0"
+    "@nrwl/linter" "11.5.0"
+    "@nrwl/storybook" "11.5.0"
+    "@nrwl/web" "11.5.0"
+    "@nrwl/workspace" "11.5.0"
     "@svgr/webpack" "^5.4.0"
     eslint-plugin-import "^2.20.1"
     eslint-plugin-jsx-a11y "^6.2.3"
@@ -4417,15 +4417,15 @@
     eslint-plugin-react-hooks "4.2.0"
     url-loader "^3.0.0"
 
-"@nrwl/storybook@11.5.0-beta.0":
-  version "11.5.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-11.5.0-beta.0.tgz#46fc468c9c17dda642a7a1121f176f98e34f3926"
-  integrity sha512-BDExTLARiYQgoNcxf3jpokUNvmazpr8dPnDjXIux3z0JCFmrQfmHHXlTJcDHEF+4EOXg4ZJ4MqCQvGakWh86TA==
+"@nrwl/storybook@11.5.0":
+  version "11.5.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-11.5.0.tgz#ec42cc24e75252c29bb5d148b6135d7ffdb4b16b"
+  integrity sha512-q7LOR0ytedGWbgmEJzepDdFXyq+1dhsuVdPbmJFRmaV1Yv87eIm7+t/5GGkIdPVNA/wrlTLBkjz5nNYcipphBw==
   dependencies:
-    "@nrwl/cypress" "11.5.0-beta.0"
-    "@nrwl/devkit" "11.5.0-beta.0"
-    "@nrwl/linter" "11.5.0-beta.0"
-    "@nrwl/workspace" "11.5.0-beta.0"
+    "@nrwl/cypress" "11.5.0"
+    "@nrwl/devkit" "11.5.0"
+    "@nrwl/linter" "11.5.0"
+    "@nrwl/workspace" "11.5.0"
     core-js "^3.6.5"
     semver "6.3.0"
     tree-kill "1.2.2"
@@ -4433,10 +4433,10 @@
     tsconfig-paths-webpack-plugin "3.2.0"
     webpack-node-externals "1.7.2"
 
-"@nrwl/tao@11.5.0-beta.0":
-  version "11.5.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-11.5.0-beta.0.tgz#8689c63fff427eb890bd5847fa1812e000602c6f"
-  integrity sha512-Ur0XJv8bz/g/L4P8NuAY1MasX3ROiuCHISIn92rdZ+sai8wb7iDnaysccadCBYFjPnsURQiWIfgPQ3JtOwOFZA==
+"@nrwl/tao@11.5.0":
+  version "11.5.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-11.5.0.tgz#fe81e77ef105654c83202d3ac74614d7f1fcd505"
+  integrity sha512-cRZWGEkS14kEuUELtP66s2Z+JNmxVg0ht7uH1vIKxXhW+V186uzh2tfX/a0Wtv6Yq6eZs0xBhTwouZzsuxIXYQ==
   dependencies:
     chalk "4.1.0"
     fs-extra "7.0.1"
@@ -4450,10 +4450,10 @@
     tslib "^2.0.0"
     yargs-parser "20.0.0"
 
-"@nrwl/web@11.5.0-beta.0":
-  version "11.5.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/web/-/web-11.5.0-beta.0.tgz#f0c518293412103dbd2ab5172375c0ca6ac1e2b7"
-  integrity sha512-CvCSPQCsudEUaS6mZTvAgOzZlw5kDVEsjc0DKT6ea1lE+cKT/EQ7qGdyIGbpPAyhv1SjsjyuQ0fC52ZERSQ4Sg==
+"@nrwl/web@11.5.0":
+  version "11.5.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/web/-/web-11.5.0.tgz#b0b12e6bf599f84452e2ceb04081d41d58a050a4"
+  integrity sha512-E7VXHKJ+PiUktL4DrY2dFk2w0/ZGBVblwncUcC59op2QcecmF598hi+B0qkxu1f389c9/yHCcpJLTqBM1qHKfw==
   dependencies:
     "@babel/core" "7.9.6"
     "@babel/plugin-proposal-class-properties" "7.8.3"
@@ -4461,18 +4461,18 @@
     "@babel/plugin-transform-regenerator" "7.8.7"
     "@babel/preset-env" "7.9.6"
     "@babel/preset-typescript" "7.10.4"
-    "@nrwl/cypress" "11.5.0-beta.0"
-    "@nrwl/devkit" "11.5.0-beta.0"
-    "@nrwl/jest" "11.5.0-beta.0"
-    "@nrwl/linter" "11.5.0-beta.0"
-    "@nrwl/workspace" "11.5.0-beta.0"
+    "@nrwl/cypress" "11.5.0"
+    "@nrwl/devkit" "11.5.0"
+    "@nrwl/jest" "11.5.0"
+    "@nrwl/linter" "11.5.0"
+    "@nrwl/workspace" "11.5.0"
     "@rollup/plugin-babel" "5.0.2"
     "@rollup/plugin-commonjs" "11.0.2"
     "@rollup/plugin-image" "2.0.4"
     "@rollup/plugin-json" "^4.1.0"
     "@rollup/plugin-node-resolve" "7.1.1"
     ajv "6.10.2"
-    autoprefixer "9.7.4"
+    autoprefixer "^10.2.5"
     babel-loader "8.1.0"
     babel-plugin-const-enum "^1.0.1"
     babel-plugin-macros "^2.8.0"
@@ -4547,15 +4547,15 @@
     webpack-subresource-integrity "^1.5.1"
     worker-plugin "3.2.0"
 
-"@nrwl/workspace@11.5.0-beta.0":
-  version "11.5.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/workspace/-/workspace-11.5.0-beta.0.tgz#14cc5ad388301b4461bfc5a8c1481f3da02cf428"
-  integrity sha512-vib9dhyA0ixHvCiLVmIZIDos90LD8w2cLN6tXcNVuRAYWOAGl10QyafHgLGwa7mTzw5jMP3nOHUjNCg4j72qzQ==
+"@nrwl/workspace@11.5.0":
+  version "11.5.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/workspace/-/workspace-11.5.0.tgz#05dfc1b514bae7ac326550f01e093dd8a5446667"
+  integrity sha512-a0XofL5QjQrWA3G6yyTH8NRT/LMupcAyybhQYYO/iIQoTMIcmX/emEeOAHQaPnsNb80Z1yvBl+8YoTJeC1Qi7g==
   dependencies:
-    "@nrwl/cli" "11.5.0-beta.0"
-    "@nrwl/devkit" "11.5.0-beta.0"
-    "@nrwl/jest" "11.5.0-beta.0"
-    "@nrwl/linter" "11.5.0-beta.0"
+    "@nrwl/cli" "11.5.0"
+    "@nrwl/devkit" "11.5.0"
+    "@nrwl/jest" "11.5.0"
+    "@nrwl/linter" "11.5.0"
     axios "0.21.1"
     chalk "4.1.0"
     cosmiconfig "^4.0.0"
@@ -5963,18 +5963,17 @@ autoprefixer@10.2.4:
     normalize-range "^0.1.2"
     postcss-value-parser "^4.1.0"
 
-autoprefixer@9.7.4:
-  version "9.7.4"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.7.4.tgz#f8bf3e06707d047f0641d87aee8cfb174b2a5378"
-  integrity sha512-g0Ya30YrMBAEZk60lp+qfX5YQllG+S5W3GYCFvyHTvhOki0AEQJLPEcIuGRsqVwLi8FvXPVtwTGhfr38hVpm0g==
+autoprefixer@^10.2.5:
+  version "10.2.5"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.2.5.tgz#096a0337dbc96c0873526d7fef5de4428d05382d"
+  integrity sha512-7H4AJZXvSsn62SqZyJCP+1AWwOuoYpUfK6ot9vm0e87XD6mT8lDywc9D9OTJPMULyGcvmIxzTAMeG2Cc+YX+fA==
   dependencies:
-    browserslist "^4.8.3"
-    caniuse-lite "^1.0.30001020"
-    chalk "^2.4.2"
+    browserslist "^4.16.3"
+    caniuse-lite "^1.0.30001196"
+    colorette "^1.2.2"
+    fraction.js "^4.0.13"
     normalize-range "^0.1.2"
-    num2fraction "^1.2.2"
-    postcss "^7.0.26"
-    postcss-value-parser "^4.0.2"
+    postcss-value-parser "^4.1.0"
 
 aws-sign2@~0.7.0:
   version "0.7.0"
@@ -6450,7 +6449,7 @@ browserslist@^4.14.5, browserslist@^4.14.6:
     escalade "^3.1.1"
     node-releases "^1.1.67"
 
-browserslist@^4.16.1:
+browserslist@^4.16.1, browserslist@^4.16.3:
   version "4.16.3"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.3.tgz#340aa46940d7db878748567c5dea24a48ddf3717"
   integrity sha512-vIyhWmIkULaq04Gt93txdh+j02yX/JzlyhLYbV3YQCn/zvES3JnY7TifHHvvr1w5hTDluNKMkV05cs4vy8Q7sw==
@@ -6778,15 +6777,15 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001015:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001016.tgz#16ea48d7d6e8caf3cad3295c2d746fe38c4e7f66"
   integrity sha512-yYQ2QfotceRiH4U+h1Us86WJXtVHDmy3nEKIdYPsZCYnOV5/tMgGbmoIlrMzmh2VXlproqYtVaKeGDBkMZifFA==
 
-caniuse-lite@^1.0.30001020, caniuse-lite@^1.0.30001030:
-  version "1.0.30001030"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001030.tgz#78076c4c6d67d3e41d6eb9399853fb27fe6e44ee"
-  integrity sha512-QGK0W4Ft/Ac+zTjEiRJfwDNATvS3fodDczBXrH42784kcfqcDKpEPfN08N0HQjrAp8He/Jw8QiSS9QRn7XAbUw==
-
 caniuse-lite@^1.0.30001022:
   version "1.0.30001023"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001023.tgz#b82155827f3f5009077bdd2df3d8968bcbcc6fc4"
   integrity sha512-C5TDMiYG11EOhVOA62W1p3UsJ2z4DsHtMBQtjzp3ZsUglcQn62WOUgW0y795c7A5uZ+GCEIvzkMatLIlAsbNTA==
+
+caniuse-lite@^1.0.30001030:
+  version "1.0.30001030"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001030.tgz#78076c4c6d67d3e41d6eb9399853fb27fe6e44ee"
+  integrity sha512-QGK0W4Ft/Ac+zTjEiRJfwDNATvS3fodDczBXrH42784kcfqcDKpEPfN08N0HQjrAp8He/Jw8QiSS9QRn7XAbUw==
 
 caniuse-lite@^1.0.30001032, caniuse-lite@^1.0.30001038:
   version "1.0.30001038"
@@ -6807,6 +6806,11 @@ caniuse-lite@^1.0.30001181:
   version "1.0.30001187"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001187.tgz#5706942631f83baa5a0218b7dfa6ced29f845438"
   integrity sha512-w7/EP1JRZ9552CyrThUnay2RkZ1DXxKe/Q2swTC4+LElLh9RRYrL1Z+27LlakB8kzY0fSmHw9mc7XYDUKAKWMA==
+
+caniuse-lite@^1.0.30001196:
+  version "1.0.30001198"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001198.tgz#ed2d9b5f060322ba2efa42afdc56dee3255473f4"
+  integrity sha512-r5GGgESqOPZzwvdLVER374FpQu2WluCF1Z2DSiFJ89KSmGjT0LVKjgv4NcAqHmGWF9ihNpqRI9KXO9Ex4sKsgA==
 
 canonical-path@1.0.0:
   version "1.0.0"
@@ -7226,6 +7230,11 @@ colorette@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.1.tgz#4d0b921325c14faf92633086a536db6e89564b1b"
   integrity sha512-puCDz0CzydiSYOrnXpz/PKd69zRrribezjtE9yd4zvytoRc8+RY/KJPvtPFKZS3E3wP6neGyMe0vOTlHO5L3Pw==
+
+colorette@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
+  integrity sha512-MKGMzyfeuutC/ZJ1cba9NqcNpfeqMUcYmyF1ZFY6/Cn7CNSAKx6a+s48sqLqyAiZuaP2TcqMhoo+dlwFnVxT9w==
 
 colors@^1.1.2, colors@^1.4.0:
   version "1.4.0"
@@ -13000,11 +13009,6 @@ nth-check@^1.0.2:
   dependencies:
     boolbase "~1.0.0"
 
-num2fraction@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
-  integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
-
 number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
@@ -14195,15 +14199,6 @@ postcss@^7.0.16, postcss@^7.0.23, postcss@^7.0.6:
   version "7.0.26"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.26.tgz#5ed615cfcab35ba9bbb82414a4fa88ea10429587"
   integrity sha512-IY4oRjpXWYshuTDFxMVkJDtWIk2LhsTlu8bZnbEJA4+bYT16Lvpo8Qv6EvDumhYRgzjZl489pmsY3qVgJQ08nA==
-  dependencies:
-    chalk "^2.4.2"
-    source-map "^0.6.1"
-    supports-color "^6.1.0"
-
-postcss@^7.0.26:
-  version "7.0.27"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.27.tgz#cc67cdc6b0daa375105b7c424a85567345fc54d9"
-  integrity sha512-WuQETPMcW9Uf1/22HWUWP9lgsIC+KEHg2kozMflKjbeUtw9ujvFX6QmIfozaErDkmLWS9WEnEdEe6Uo9/BNTdQ==
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
