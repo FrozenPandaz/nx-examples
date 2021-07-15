@@ -1,5 +1,6 @@
 {
   "version": 1,
+  "$schema": "my-schema",
   "projects": {
     "app1": {
       "projectType": "application",
