@@ -5,6 +5,16 @@
   "generators": {},
   "targets": {
     "build": {
+      "dependsOn": [
+        {
+          "target": "lint",
+          "projects": "self"
+        },
+        {
+          "target": "test",
+          "projects": "self"
+        }
+      ],
       "executor": "@nrwl/web:build",
       "options": {
         "outputPath": "dist/apps/cart",
