@@ -19,13 +19,5 @@
       }
     }
   },
-  "projects": {},
-  "targetDependencies": {
-    "build": [
-      {
-        "target": "build",
-        "projects": "dependencies"
-      }
-    ]
-  }
+  "projects": {}
 }
