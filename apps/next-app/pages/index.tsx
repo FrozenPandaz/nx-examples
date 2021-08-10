@@ -1,5 +1,7 @@
 import styled from '@emotion/styled';
 
+import { SharedButton } from '@react-storybook-test/shared-button';
+
 const StyledPage = styled.div`
   .page {
   }
@@ -14,6 +16,7 @@ export function Index() {
   return (
     <StyledPage>
       <h2>Resources &amp; Tools</h2>
+      <SharedButton></SharedButton>
       <p>Thank you for using and showing some ♥ for Nx.</p>
       <div className="flex github-star-container">
         <a

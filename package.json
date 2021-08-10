@@ -23,7 +23,8 @@
     "update": "nx migrate latest",
     "workspace-generator": "nx workspace-generator",
     "dep-graph": "nx dep-graph",
-    "help": "nx help"
+    "help": "nx help",
+    "postinstall": "echo 'REPRODUCING ISSUE NOW' && nx run-many --target build-storybook --all"
   },
   "private": true,
   "dependencies": {
@@ -35,10 +36,15 @@
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-is": "17.0.2",
     "regenerator-runtime": "0.13.7",
+    "styled-components": "5.2.1",
+    "styled-jsx": "3.4.4",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
+    "@babel/core": "7.12.13",
+    "@babel/preset-typescript": "7.12.13",
     "@emotion/babel-plugin": "11.2.0",
     "@nrwl/cli": "12.7.0-beta.0",
     "@nrwl/cypress": "12.7.0-beta.0",
@@ -46,17 +52,26 @@
     "@nrwl/jest": "12.7.0-beta.0",
     "@nrwl/linter": "12.7.0-beta.0",
     "@nrwl/react": "12.7.0-beta.0",
+    "@nrwl/storybook": "12.7.0-beta.0",
     "@nrwl/tao": "12.7.0-beta.0",
     "@nrwl/web": "12.7.0-beta.0",
     "@nrwl/workspace": "12.7.0-beta.0",
+    "@storybook/addon-essentials": "~6.3.0",
+    "@storybook/react": "~6.3.0",
+    "@svgr/webpack": "^5.4.0",
     "@testing-library/react": "11.2.6",
     "@types/jest": "26.0.24",
     "@types/node": "14.14.33",
     "@types/react": "17.0.3",
     "@types/react-dom": "17.0.3",
+    "@types/react-is": "17.0.0",
+    "@types/styled-components": "5.1.9",
+    "@types/styled-jsx": "2.2.8",
     "@typescript-eslint/eslint-plugin": "~4.28.3",
     "@typescript-eslint/parser": "~4.28.3",
     "babel-jest": "27.0.6",
+    "babel-loader": "8.1.0",
+    "babel-plugin-styled-components": "1.10.7",
     "cypress": "^7.3.0",
     "dotenv": "~10.0.0",
     "eslint": "7.22.0",
@@ -71,6 +86,7 @@
     "prettier": "^2.3.1",
     "ts-jest": "27.0.3",
     "ts-node": "~9.1.1",
-    "typescript": "~4.3.5"
+    "typescript": "~4.3.5",
+    "url-loader": "^3.0.0"
   }
 }

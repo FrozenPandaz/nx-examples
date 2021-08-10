@@ -14,7 +14,13 @@
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e",
+          "build-storybook"
+        ]
       }
     }
   },
@@ -27,12 +33,47 @@
     ]
   },
   "projects": {
+    "button2": {
+      "tags": []
+    },
+    "button2-e2e": {
+      "tags": [],
+      "implicitDependencies": ["button2"]
+    },
+    "button3": {
+      "tags": []
+    },
+    "button3-e2e": {
+      "tags": [],
+      "implicitDependencies": ["button3"]
+    },
+    "button4": {
+      "tags": []
+    },
+    "button4-e2e": {
+      "tags": [],
+      "implicitDependencies": ["button4"]
+    },
+    "button5": {
+      "tags": []
+    },
+    "button5-e2e": {
+      "tags": [],
+      "implicitDependencies": ["button5"]
+    },
     "next-app": {
       "tags": []
     },
     "next-app-e2e": {
       "tags": [],
       "implicitDependencies": ["next-app"]
+    },
+    "shared-button": {
+      "tags": []
+    },
+    "shared-button-e2e": {
+      "tags": [],
+      "implicitDependencies": ["shared-button"]
     }
   }
 }

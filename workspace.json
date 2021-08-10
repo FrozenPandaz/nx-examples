@@ -1,6 +1,318 @@
 {
   "version": 2,
   "projects": {
+    "button2": {
+      "root": "libs/button2",
+      "sourceRoot": "libs/button2/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/button2/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/button2"],
+          "options": {
+            "jestConfig": "libs/button2/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "storybook": {
+          "executor": "@nrwl/storybook:storybook",
+          "options": {
+            "uiFramework": "@storybook/react",
+            "port": 4400,
+            "config": {
+              "configFolder": "libs/button2/.storybook"
+            }
+          },
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
+        },
+        "build-storybook": {
+          "executor": "@nrwl/storybook:build",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "uiFramework": "@storybook/react",
+            "outputPath": "dist/storybook/button2",
+            "config": {
+              "configFolder": "libs/button2/.storybook"
+            }
+          },
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
+        }
+      }
+    },
+    "button2-e2e": {
+      "root": "apps/button2-e2e",
+      "sourceRoot": "apps/button2-e2e/src",
+      "projectType": "application",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/button2-e2e/cypress.json",
+            "tsConfig": "apps/button2-e2e/tsconfig.e2e.json",
+            "devServerTarget": "button2:storybook"
+          },
+          "configurations": {
+            "ci": {
+              "devServerTarget": "button2:storybook:ci"
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/button2-e2e/**/*.{js,ts}"]
+          }
+        }
+      }
+    },
+    "button3": {
+      "root": "libs/button3",
+      "sourceRoot": "libs/button3/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/button3/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/button3"],
+          "options": {
+            "jestConfig": "libs/button3/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "storybook": {
+          "executor": "@nrwl/storybook:storybook",
+          "options": {
+            "uiFramework": "@storybook/react",
+            "port": 4400,
+            "config": {
+              "configFolder": "libs/button3/.storybook"
+            }
+          },
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
+        },
+        "build-storybook": {
+          "executor": "@nrwl/storybook:build",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "uiFramework": "@storybook/react",
+            "outputPath": "dist/storybook/button3",
+            "config": {
+              "configFolder": "libs/button3/.storybook"
+            }
+          },
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
+        }
+      }
+    },
+    "button3-e2e": {
+      "root": "apps/button3-e2e",
+      "sourceRoot": "apps/button3-e2e/src",
+      "projectType": "application",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/button3-e2e/cypress.json",
+            "tsConfig": "apps/button3-e2e/tsconfig.e2e.json",
+            "devServerTarget": "button3:storybook"
+          },
+          "configurations": {
+            "ci": {
+              "devServerTarget": "button3:storybook:ci"
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/button3-e2e/**/*.{js,ts}"]
+          }
+        }
+      }
+    },
+    "button4": {
+      "root": "libs/button4",
+      "sourceRoot": "libs/button4/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/button4/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/button4"],
+          "options": {
+            "jestConfig": "libs/button4/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "storybook": {
+          "executor": "@nrwl/storybook:storybook",
+          "options": {
+            "uiFramework": "@storybook/react",
+            "port": 4400,
+            "config": {
+              "configFolder": "libs/button4/.storybook"
+            }
+          },
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
+        },
+        "build-storybook": {
+          "executor": "@nrwl/storybook:build",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "uiFramework": "@storybook/react",
+            "outputPath": "dist/storybook/button4",
+            "config": {
+              "configFolder": "libs/button4/.storybook"
+            }
+          },
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
+        }
+      }
+    },
+    "button4-e2e": {
+      "root": "apps/button4-e2e",
+      "sourceRoot": "apps/button4-e2e/src",
+      "projectType": "application",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/button4-e2e/cypress.json",
+            "tsConfig": "apps/button4-e2e/tsconfig.e2e.json",
+            "devServerTarget": "button4:storybook"
+          },
+          "configurations": {
+            "ci": {
+              "devServerTarget": "button4:storybook:ci"
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/button4-e2e/**/*.{js,ts}"]
+          }
+        }
+      }
+    },
+    "button5": {
+      "root": "libs/button5",
+      "sourceRoot": "libs/button5/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/button5/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/button5"],
+          "options": {
+            "jestConfig": "libs/button5/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "storybook": {
+          "executor": "@nrwl/storybook:storybook",
+          "options": {
+            "uiFramework": "@storybook/react",
+            "port": 4400,
+            "config": {
+              "configFolder": "libs/button5/.storybook"
+            }
+          },
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
+        },
+        "build-storybook": {
+          "executor": "@nrwl/storybook:build",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "uiFramework": "@storybook/react",
+            "outputPath": "dist/storybook/button5",
+            "config": {
+              "configFolder": "libs/button5/.storybook"
+            }
+          },
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
+        }
+      }
+    },
+    "button5-e2e": {
+      "root": "apps/button5-e2e",
+      "sourceRoot": "apps/button5-e2e/src",
+      "projectType": "application",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/button5-e2e/cypress.json",
+            "tsConfig": "apps/button5-e2e/tsconfig.e2e.json",
+            "devServerTarget": "button5:storybook"
+          },
+          "configurations": {
+            "ci": {
+              "devServerTarget": "button5:storybook:ci"
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/button5-e2e/**/*.{js,ts}"]
+          }
+        }
+      }
+    },
     "next-app": {
       "root": "apps/next-app",
       "sourceRoot": "apps/next-app",
@@ -74,6 +386,84 @@
           "executor": "@nrwl/linter:eslint",
           "options": {
             "lintFilePatterns": ["apps/next-app-e2e/**/*.{js,ts}"]
+          }
+        }
+      }
+    },
+    "shared-button": {
+      "root": "libs/shared-button",
+      "sourceRoot": "libs/shared-button/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/shared-button/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/shared-button"],
+          "options": {
+            "jestConfig": "libs/shared-button/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "storybook": {
+          "executor": "@nrwl/storybook:storybook",
+          "options": {
+            "uiFramework": "@storybook/react",
+            "port": 4400,
+            "config": {
+              "configFolder": "libs/shared-button/.storybook"
+            }
+          },
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
+        },
+        "build-storybook": {
+          "executor": "@nrwl/storybook:build",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "uiFramework": "@storybook/react",
+            "outputPath": "dist/storybook/shared-button",
+            "config": {
+              "configFolder": "libs/shared-button/.storybook"
+            }
+          },
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
+        }
+      }
+    },
+    "shared-button-e2e": {
+      "root": "apps/shared-button-e2e",
+      "sourceRoot": "apps/shared-button-e2e/src",
+      "projectType": "application",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/shared-button-e2e/cypress.json",
+            "tsConfig": "apps/shared-button-e2e/tsconfig.e2e.json",
+            "devServerTarget": "shared-button:storybook"
+          },
+          "configurations": {
+            "ci": {
+              "devServerTarget": "shared-button:storybook:ci"
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/shared-button-e2e/**/*.{js,ts}"]
           }
         }
       }

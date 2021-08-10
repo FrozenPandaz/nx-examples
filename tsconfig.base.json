@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@react-storybook-test/button2": ["libs/button2/src/index.ts"],
+      "@react-storybook-test/button3": ["libs/button3/src/index.ts"],
+      "@react-storybook-test/button4": ["libs/button4/src/index.ts"],
+      "@react-storybook-test/button5": ["libs/button5/src/index.ts"],
+      "@react-storybook-test/shared-button": ["libs/shared-button/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
