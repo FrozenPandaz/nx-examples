@@ -18,6 +18,7 @@
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": ["apps/products-e2e/**/*.{js,ts}"]
       }

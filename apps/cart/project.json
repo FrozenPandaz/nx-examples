@@ -74,6 +74,7 @@
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": ["apps/cart/**/*.{ts,tsx,js,jsx}"]
       }

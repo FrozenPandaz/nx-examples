@@ -6,6 +6,7 @@
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": [
           "libs/shared/jsxify/src/**/*.ts",
