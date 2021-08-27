@@ -99,6 +99,27 @@
           }
         }
       }
+    },
+    "enum-lib": {
+      "root": "libs/enum-lib",
+      "sourceRoot": "libs/enum-lib/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/enum-lib/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/enum-lib"],
+          "options": {
+            "jestConfig": "libs/enum-lib/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {
