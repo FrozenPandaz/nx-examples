@@ -1,11 +1,4 @@
 {
-  "implicitDependencies": {
-    "package.json": {
-      "dependencies": "*",
-      "devDependencies": "*"
-    },
-    ".eslintrc.json": "*"
-  },
   "affected": {
     "defaultBase": "master"
   },
@@ -43,9 +36,66 @@
   },
   "defaultProject": "products",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "namedInputs": {
+    "browserslistConfigs": [
+      "{projectRoot}/**/browserslist",
+      "{projectRoot}/**/.browserslistrc"
+    ],
+    "noAssets": ["{projectRoot}/src/assets/**/*"],
+    "defaults": [
+      "{projectRoot}/src/**/*",
+      "{workspaceRoot}/package.json",
+      "{workspaceRoot}/yarn.lock",
+      "{projectRoot}/**/tsconfig.json",
+      "{projectRoot}/**/.babelrc",
+      "{workspaceRoot}/babel.config.json"
+    ]
+  },
   "targetDefaults": {
+    "e2e": {
+      "inputs": [
+        "defaults",
+        "^defaults",
+        "browserslistConfigs",
+        "^browserslistConfigs",
+        "{projectRoot}/**/cypress.config.ts",
+        "^!{projectRoot}/src/test-setup.ts",
+        "{projectRoot}/**/tsconfig.e2e.json",
+        "^{projectRoot}/**/tsconfig.app.json",
+        "^{projectRoot}/**/tsconfig.lib.json"
+      ]
+    },
     "build": {
-      "dependsOn": ["^build"]
+      "dependsOn": ["^build"],
+      "inputs": [
+        "defaults",
+        "^defaults",
+        "browserslistConfigs",
+        "^browserslistConfigs",
+        "!{projectRoot}/src/test-setup.ts",
+        "{projectRoot}/**/tsconfig.app.json",
+        "{projectRoot}/**/tsconfig.lib.json",
+        "^{projectRoot}/**/tsconfig.lib.json"
+      ]
+    },
+    "test": {
+      "inputs": [
+        "defaults",
+        "^defaults",
+        "noAssets",
+        "^noAssets",
+        "{projectRoot}/**/jest.config.ts",
+        "{workspaceRoot}/jest.preset.js",
+        "{projectRoot}/**/tsconfig.spec.json"
+      ]
+    },
+    "lint": {
+      "inputs": [
+        "defaults",
+        "noAssets",
+        "{projectRoot}/**/.eslintrc.json",
+        "{workspaceRoot}/.eslintrc.json"
+      ]
     }
   }
 }
