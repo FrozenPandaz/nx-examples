@@ -23,6 +23,11 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
+  it('should handle BigInt', () => {
+    const result = BigInt(2) ** BigInt(33);
+    expect(result).toBeTruthy();
+  });
+
   it(`should render the header`, () => {
     expect(
       fixture.nativeElement.querySelector('nx-example-header')
