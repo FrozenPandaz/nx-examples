@@ -1,0 +1,23 @@
+{
+  "name": "qwik-app",
+  "targets": {
+    "_build": {
+      "executor": "@nrwl/vite:build",
+      "options": {
+        "outputPath": "dist/qwik-app"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "qwik build"
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/vite:dev-server",
+      "options": {
+        "buildTarget": "qwik-app:_build"
+      }
+    }
+  }
+}
