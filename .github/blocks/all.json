@@ -1,5 +1,8 @@
 {
   "apps/cart/project.json": {
     "default": "FrozenPandaz__blocks-test__nx-project-graph"
+  },
+  "apps/products/project.json": {
+    "default": "FrozenPandaz__blocks-test__nx-project-graph"
   }
 }
