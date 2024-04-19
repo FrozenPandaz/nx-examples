@@ -8,8 +8,10 @@
   },
   "generators": {
     "@nx/angular:application": {
-      "unitTestRunner": "jest",
-      "e2eTestRunner": "cypress"
+      "e2eTestRunner": "cypress",
+      "linter": "eslint",
+      "style": "css",
+      "unitTestRunner": "jest"
     },
     "@nx/angular:library": {
       "unitTestRunner": "jest"
@@ -62,6 +64,11 @@
     "@nx/eslint:lint": {
       "inputs": ["default", "{workspaceRoot}/.eslintrc.json"],
       "cache": true
+    },
+    "@angular-devkit/build-angular:browser": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     }
   },
   "namedInputs": {
