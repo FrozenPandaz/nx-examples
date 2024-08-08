@@ -1,0 +1,14 @@
+{
+  "name": "created-ts-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run": "tsc -b tsconfig.json && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
